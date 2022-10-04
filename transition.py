@@ -1,5 +1,4 @@
 import pandas as pd
-import codecs
 
 # データフレームの整形
 df0 = pd.read_table("22qweb_dataset_dummy.csv", delimiter=",")
