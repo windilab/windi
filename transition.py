@@ -34,4 +34,4 @@ for i in range(14):
     df1 = pd.concat([df1, df2], join='outer')
 
 print(df1.head())
-# df1.to_csv("transition_plot.csv")
+df1.to_csv("transition_plot.csv")
