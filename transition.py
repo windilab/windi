@@ -2,7 +2,7 @@ import pandas as pd
 import codecs
 
 # データフレームの整形
-df0 = pd.read_table("22qweb_dataset_q7-1.csv", delimiter=",")
+df0 = pd.read_table("22qweb_dataset_dummy.csv", delimiter=",")
 print(df0.head(20))
 df0 = df0.fillna(0)
 
