@@ -1,0 +1,19 @@
+name: test
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2022.07.19
+  - certifi=2022.9.24
+  - openssl=1.1.1q
+  - pip=22.2.2
+  - python=3.9.13
+  - setuptools=63.4.1
+  - sqlite=3.39.3
+  - tzdata=2022c
+  - vc=14.2
+  - vs2015_runtime=14.27.29016
+  - wheel=0.37.1
+  - wincertstore=0.2
+  - pip:
+    - numpy==1.23.3
+prefix: C:\Users\sawai\anaconda3\envs\test
