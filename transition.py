@@ -35,4 +35,4 @@ for i in range(14):
 print(df1.head())
 df1.to_csv("transition_plot.csv")
 
-print("高橋です")
+print("Takahashi")
