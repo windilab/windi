@@ -1,5 +1,7 @@
 import pandas as pd
 
+print('ありがとうございますありがとうございますありがとうございますありがとうございますありがとうございます')
+
 # データフレームの整形
 df0 = pd.read_table("22qweb_dataset_dummy.csv", delimiter=",")
 print(df0.head(20))
