@@ -1,3 +1,8 @@
 使う順番
 
 1. main.py
+
+raw data(GBDとestat人口密度)を読み込み、データフレームに整形してcsvファイルに書き出す
+
+2. analysis.py
+
