@@ -1,0 +1,1801 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1995,99.01795264304668,155.6473231517036,58.63958430716879
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1995,0.46629063312855906,0.7332503239278467,0.2678071263906762
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1995,0.4561215392779386,0.716982069669476,0.270120485658037
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1995,7909.686143975152,11908.776684147793,4658.431529816644
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1995,6172.398520649235,9502.401314665523,3543.7989264590215
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1995,35.22844241918048,53.03973458162254,20.747888591868254
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1995,28.432863325548702,43.7723644934029,16.324342991164677
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1995,9726.429761561676,12108.26363160769,7761.734726615971
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1995,7298.399736485948,9187.825471208032,5795.587942244307
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1995,43.31991997689753,53.92821666726408,34.569491116638076
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1995,33.619734939100866,42.32328567377975,26.69710312802319
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1995,148028.22981311858,189018.34772799528,113090.404151893
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1995,77530.68895974757,99999.99783254946,58890.92653909406
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1995,659.2934125909414,841.856662565097,503.68607784285393
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1995,357.1414702653161,460.645284230445,271.27828182177495
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1995,492333.25311033207,592574.102854366,406632.28351407836
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1995,694759.0705328989,836100.3422449005,582747.5739599062
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1995,2192.7714124859754,2639.2276863480233,1811.0733757074577
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1995,3200.374964539614,3851.456881464167,2684.399276596659
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1995,29958.5435130782,38731.026353577196,21775.77297891633
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1995,37375.7179548803,48694.82248327911,27520.909659961275
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1995,133.43043022217591,172.50162735876089,96.98571480048223
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1995,172.16948593811625,224.3104082954288,126.77377527369148
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1991,91.84378504712826,142.39789336700852,52.54236909399064
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1991,0.4370941363934709,0.6904176025832015,0.24802204898132837
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1991,0.41812096765516926,0.6482697216378812,0.23920035740253226
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1991,8106.206905353111,11993.721045558437,4880.112131762795
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1991,6338.629520266679,9463.406973534697,3799.040709030682
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1991,35.783485833093316,52.94426260405431,21.542433516657685
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1991,28.856758323511567,43.082380359853495,17.295221191136623
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1991,99.01705840645924,156.40365401353301,56.18563980910162
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1992,93.86606966319798,145.01928118381798,54.484562160179564
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1992,0.44353668314640066,0.696976048029763,0.2510332197639081
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1992,0.4292122537757122,0.6631155724446426,0.2491362619598663
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1992,8044.279512751112,11925.90967224433,4859.319088861898
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1992,6279.904225692953,9359.829793959463,3726.677659553808
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1992,35.63448867992481,52.829304667964855,21.525775029288116
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1992,28.715507700244952,42.79878400402954,17.040616732883354
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1996,14210.004175952594,18043.279591354374,10954.192303584272
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1996,14568.199509644848,18450.272422562084,11017.780838708513
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1996,63.436377741455544,80.54890664908064,48.901764715782235
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1996,67.29117515051621,85.22264623980504,50.89163006703017
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1996,90708.7880434447,123238.59744836648,66361.58735870456
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1996,138162.59935774945,183034.22781880276,100583.89468517558
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1996,404.9426637418872,550.1624153842074,296.2517583445521
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1996,638.1793210943998,845.4434108031243,464.60157757313897
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1996,164251.83933430965,240574.36255604227,104066.69767414169
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1996,82572.45111516907,112740.72750612795,57776.101173581905
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1996,733.2539523368323,1073.9733746061274,464.5751163912064
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1996,381.40590173272113,520.7545404762529,266.8704352251299
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1996,14448.277174574328,23999.185843698393,7369.208467992026
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1996,7856.877753146053,15562.798694736588,3495.7233028696173
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1996,64.50007735469963,107.1372956557337,32.89766042589758
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1996,36.291275162254706,71.88527395622377,16.146904694393154
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1990,98.49432989173457,156.50034680867233,55.4489503427182
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1996,294740.0688961539,381357.6738680112,222015.6873149019
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1996,153595.4238143906,200232.3242566009,114158.2479177599
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1996,1315.7802147363298,1702.4589968125194,991.1236359008922
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1996,709.4642381420746,924.8821993016734,527.3021316343371
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1994,14604.486601616063,18511.65332803729,11362.162061081692
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1994,14880.164811399572,18851.19424547732,11349.94860509572
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1994,64.90348773864078,82.26724414025539,50.494342329997615
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1994,68.36154788359502,86.60500971655155,52.14324336308311
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1994,91324.82752362842,123919.22732985723,66868.24744490918
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1994,139550.31956768848,184829.51454833796,101007.96278600146
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1994,405.8547202034075,550.7067979161453,297.16775375485093
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1994,641.113588069206,849.1325109126533,464.0446374175716
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1994,165832.12029658782,244805.54444067928,105093.66811331232
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1994,84152.5956129411,115304.64394083686,58916.83234822966
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1994,736.9709925408403,1087.9351041479774,467.0445313049469
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1994,386.6087350131839,529.7255801846864,270.6721267386565
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1997,106.7529042777832,165.65694989886467,61.87023584986897
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1993,95.98662056484949,149.24599639441325,57.116570446845785
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1993,0.4513641130274302,0.7074733424379597,0.258148147800113
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1993,0.4402041754440229,0.6844569627986605,0.2619422649717872
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1993,7992.802121611486,11905.13215153572,4795.364879470621
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1993,6234.2501476578245,9458.081942542334,3669.7540077572326
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1993,35.481407607200204,52.848905810401554,21.287440039794852
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1993,28.590890372136677,43.3757031792359,16.829856364989578
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1993,9628.587577237353,11912.10331539482,7694.89677317678
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1993,7253.798936699757,9090.155014820102,5782.484037592751
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1993,42.74293737184415,52.87985199205575,34.1589551136502
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1993,33.26664238178197,41.68835374565318,26.519046121297656
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1993,148149.34018552976,189309.30510448632,113490.49507106683
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1993,77777.3933033297,99978.42839092584,59283.47006256718
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1993,657.6601104195403,840.3761929857274,503.8036040291206
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1993,356.6948506552145,458.5110026066873,271.8798818291716
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1994,98.03673266047649,152.86406973197595,58.165315215832834
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1994,0.46007703756986734,0.7199072454975728,0.26428128346214624
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1994,0.4503943927412728,0.702278809079991,0.2672195524504786
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1994,7951.479301265055,11889.35510931175,4738.8683183167705
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1994,6201.4501125252245,9481.104287859365,3682.6829558425816
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1994,35.336999746133195,52.83722972310255,21.059903725672328
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1994,28.490324817527647,43.55751249927817,16.91875798533261
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1991,9505.134042189584,11699.27905800773,7585.8980883017875
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1991,7220.115212412745,8958.048394979953,5772.288408374538
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1991,41.95881419159604,51.64449801462212,33.486670145907425
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1991,32.86974243980397,40.7817236766634,26.278477238887966
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1991,148968.30350101835,190591.6944329731,114681.25866044164
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1991,78249.3112355392,100282.79358990825,59688.71395443961
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1991,657.5954993683239,841.3349520037274,506.24111159650505
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1991,356.231809429082,456.53975033215505,271.7342585991696
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1991,520215.9667637296,629369.4781285587,430495.1406317504
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1991,720862.5129651446,863471.7783860334,598881.0860298765
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1991,2296.4058152211664,2778.2456168892445,1900.3483313310176
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1991,3281.743357078113,3930.975354907664,2726.420073744775
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1991,29769.021895353388,38718.5818587055,22364.425600164377
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1991,37519.39645927283,49071.15942874688,28162.209078154043
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1991,131.4103360172029,170.9166619598022,98.72399211772782
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1991,170.8079250581758,223.39759466337753,128.20911186339598
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1990,90.09875183955775,140.34711460620986,50.16049342402509
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1990,0.4327514658122512,0.6876106934888851,0.24362432400868278
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1990,0.4078944677030026,0.6353785200919745,0.22708625088776926
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1990,8166.913034134064,12132.470287993492,4893.553984971363
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1990,6402.00465965171,9519.598130918643,3856.528341974502
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1990,35.882711122229615,53.3060563671429,21.50065554388277
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1990,28.983112746455046,43.09706109216859,17.459249358220116
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1997,99.83889697133334,155.8333359030849,59.39750219285193
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1997,0.4770454654611228,0.7402692910886941,0.27647880550761433
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1997,0.46172182267164735,0.7206775522253098,0.27469376972885945
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1997,7873.580982092985,11714.51346665222,4812.918654164113
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1997,6193.840890510962,9354.448932146803,3736.557306949657
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1997,35.1845800342322,52.348510489308694,21.50743378023549
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1997,28.644462149116503,43.26122725774727,17.28033965336403
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1997,9773.415653170201,12142.263884900389,7721.177011175245
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1997,7328.058762159396,9228.353991307158,5795.879011474578
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1997,43.674349198777776,54.259993823227255,34.50353417663761
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1997,33.889844048263875,42.678079930600106,26.80402030013181
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1997,147033.49322491555,187351.31174210116,112379.34641907782
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1997,77059.31527186283,99681.64422068818,58383.240455855805
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1997,657.0468662036408,837.2146342941489,502.1882822148452
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1997,356.3738040031597,460.99458079648053,270.0031452119797
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1995,14405.313308368608,18259.087282300417,11164.988610812565
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1995,14722.928932298752,18650.69844971503,11200.088589694466
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1995,64.15889849190353,81.32297454574342,49.727024717208785
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1995,67.82047929720935,85.91356474678703,51.592681036305564
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1995,91002.70147651744,123928.86763737646,66594.91228242281
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1995,138928.09581012258,184108.5992042981,100522.23595451812
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1995,405.3110794285185,551.958813304245,296.60279688071984
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1995,639.9657356914248,848.0875984792089,463.0509495638889
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1995,165123.9228306863,243015.56096931224,104394.004704315
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1995,83390.5756154409,114043.2012532535,58353.5924440409
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1995,735.4348202426357,1082.3513778853614,464.9537436368309
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1995,384.13476239108286,525.3346399449165,268.8030775987014
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1995,14984.084027108867,24889.18318213071,7642.4917354153595
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1995,8151.260928900914,16145.908964150629,3626.7018111004436
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1995,66.73664817348596,110.85233227110982,34.03840242703168
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1995,37.54839988814383,74.3753698515499,16.706231228033634
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1995,300472.46491144766,389725.4357562794,226392.01525989032
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1995,157093.2467047967,205381.36291914067,116731.28943737273
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1995,1338.254987114115,1735.773053812998,1008.3128367640991
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1995,723.6426484747413,946.0795834810441,537.7171916694033
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1991,15159.508711626648,19126.982629009188,11820.168937951179
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1991,15308.291482544013,19195.976182520186,11748.707547882077
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1991,66.91909934607288,84.43284509343005,52.17814603975013
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1991,69.69135303542049,87.39012805713939,53.48626437921011
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1991,92369.80878014382,124007.64715819644,67932.43535734016
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1991,141702.62579358034,188026.19077149025,103606.6098770945
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1991,407.7509718765109,547.410883671154,299.87630054343146
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1991,645.104499838367,855.9936068570071,471.6715012894266
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1991,163634.2398716355,240640.1906738763,103499.44642010643
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1991,84308.86889591011,115518.69919423296,58580.96129312892
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1991,722.3358067000386,1062.2656137934378,456.8808837412163
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1991,383.8180866193839,525.9015649733327,266.6911888429293
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1991,17317.680066958143,28765.38270182268,8832.72054193302
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1991,9440.368780724591,18699.356608884937,4200.25844506077
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1991,76.4459835004724,126.9799397440055,38.99055798479702
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1991,42.977498451231746,85.12925589710902,19.121774266483357
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1991,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1995,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1995,104.69417058059543,164.63344754861012,60.12954792792147
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1990,9480.493111495927,11659.577119041323,7575.115215187374
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1990,7233.700355314539,8980.748517284637,5766.432940036369
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1990,41.654146945641614,51.22832039735053,33.28254749966189
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1990,32.74835994629831,40.65758471943697,26.105756701376517
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1990,150355.64361980153,192191.84510406118,115897.59110322375
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1990,78828.8747940293,101062.38708860753,60119.347653912126
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1990,660.6129027034868,844.4273165507691,509.2156318963687
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1990,356.87355559591776,457.5289639939668,272.17190925810064
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1990,537302.839867514,649616.1529056658,444018.15783028473
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1990,740261.2157992637,890660.1079803439,612079.2336217655
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1990,2360.7307323511677,2854.198233484642,1950.8687338603445
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1990,3351.3056331491603,4032.190493558389,2771.001019357043
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1990,15235.468909855246,19109.97366615634,11905.978212685743
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1990,15376.32760699787,19203.499738797207,11813.61657597881
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1990,66.93960464855272,83.96289537431198,52.31092519875963
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1990,69.61160766857262,86.93795578811076,53.48252607857544
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1990,92898.18128249847,123922.22906848109,68437.55395769145
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1990,142852.22727663975,188514.55977722592,104835.55950601998
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1990,408.16384217734657,544.47323348516,300.69194667703766
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1990,646.7196494459154,853.4418562370937,474.61084496711015
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1990,161198.42876368333,237112.6490798741,102204.67755950354
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1990,83122.58822595952,113340.0214353399,57932.67815327995
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1990,708.2525096703026,1041.794452175387,449.05350465717817
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1990,376.3120263741276,513.1121882258674,262.2724336960968
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1990,17564.73053710354,29175.743748621127,8958.726320658021
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1990,9579.444936256525,18974.836803408092,4262.136938406528
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1990,77.17360882483291,128.18855549610635,39.361676467437924
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1990,43.367999149673416,85.90275447389013,19.29551788757798
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1990,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1990,29749.286148190135,38826.29728228015,22044.711167960926
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1990,37668.61101119913,49670.8193956512,28470.564486278716
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1990,130.7085108518287,170.58989161546612,96.85716001955726
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1990,170.533084241669,224.8694018962624,128.89174943304815
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1990,288696.396946843,382967.3702969274,213960.3083450645
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1990,171070.23867441082,227814.8546387371,124574.46223897157
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1990,1268.4363565982906,1682.6317924740379,940.0707346681284
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1990,774.4680422230688,1031.361888710496,563.9726736152588
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1997,14039.593698688412,17753.034824161325,10794.02713021462
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1997,14432.038104082118,18388.952547031357,10878.716315051393
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1997,62.73856956105043,79.33278085814177,48.23514387144267
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1997,66.74339501363653,85.04281341845795,50.31045892619936
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1997,90643.53529345435,122270.35787591618,66759.28621759103
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1997,137484.16675008286,181880.26186550656,100439.79884592933
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1997,405.0577150818249,546.3881304178577,298.3264481934183
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1997,635.8187238243203,841.1359556651629,464.50079476771253
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1997,162659.56370499634,238740.7464278802,103261.55127106405
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1997,81366.37862290717,110471.75712887595,56915.86083586969
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1997,726.8749061612366,1066.8580051730373,461.4436967650176
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1997,376.2925451064139,510.89527831952927,263.21700060056884
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1997,14020.453265355523,23288.55263936121,7151.000889570651
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1997,7624.956841574019,15103.412845383124,3392.53583318034
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1997,62.65303692856432,104.06928513018465,31.95559475366972
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1997,35.262899305619065,69.84828077112053,15.689354308718611
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1997,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1997,282347.94211896433,366161.71230344876,212354.38616987766
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1997,149355.68421264138,194318.38496858315,110821.8476873929
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1997,1261.7249748975962,1636.262597833537,948.9455830589785
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1997,690.7205591507328,898.6581543670958,512.5143311704936
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1992,100.12583835384785,157.3383076828784,56.669295998749675
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1992,299475.1707796869,392950.73070303886,223565.4155150246
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1992,166127.8649476372,219272.66251817605,122315.97765067697
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1992,1326.612851548919,1740.6901814898258,990.3483905258125
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1992,759.6367418489948,1002.6467924833853,559.3023829441338
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1992,14995.816075610674,18989.132614406655,11660.891207331419
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1992,15175.93562293454,19109.075604935722,11643.259349761862
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1992,66.42835288673741,84.11791635497846,51.65532787203916
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1992,69.3935258528106,87.37821278119024,53.24000040416905
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1992,91921.72553431334,124032.74217774783,67449.89926250507
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1992,140772.08843557633,186605.60040217967,102706.72344551442
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1992,407.19416609025905,549.439305293535,298.78905474653294
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1992,643.6948469552981,853.273292502537,469.6370520907365
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1992,165047.87101778798,241912.07720461162,104529.87398101173
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1992,84660.9607597639,115814.0496894941,59009.75305046553
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1992,731.1278135110003,1071.6202940263922,463.0456469328276
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1992,387.1209469502506,529.5716488874082,269.8281625343128
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1992,16840.91725220993,27973.459951708064,8589.552133048326
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1992,9179.54977715731,18182.72980421638,4084.213484550051
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1992,74.60176815489436,123.91662179408316,38.049933218451145
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1992,41.97443509286263,83.14240137107107,18.675486050442117
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1992,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1994,9690.683815609798,12026.783093939292,7749.6846562320825
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1994,7283.342273573875,9138.661177399175,5799.008086941661
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1994,43.06616147231616,53.4479705015037,34.440208463639806
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1994,33.46068796268269,41.98428119506591,26.641450147723894
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1994,148169.16293969585,189290.62580915564,113355.29005076898
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1994,77704.77145992668,100049.2063044476,59141.875283527654
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1994,658.4754200833792,841.2224370752413,503.75982933258655
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1994,356.9865335679676,459.63997671971157,271.7060053006367
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1994,495028.61907772924,596552.0567251723,408791.2487070937
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1994,696813.6462438593,836783.4309368317,585541.4776201516
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1994,2199.9461388141112,2651.124284974098,1816.7004785494212
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1994,3201.2588601941443,3844.2995294221323,2690.05903278003
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1994,29965.64651629397,38541.761197590604,21986.370114677833
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1994,37414.195711726024,48489.122356421925,27485.63158575313
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1994,133.16969122594966,171.28261975581117,97.70915897839961
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1994,171.88602170010418,222.76577590475344,126.27281643553154
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1993,499449.04445561074,602027.3382532827,412081.2118776444
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1993,700168.5774930299,839508.0664540217,586742.3801997426
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1993,2217.1392279862034,2672.5017151977,1829.2985643127417
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1993,3211.042638165381,3850.067373945349,2690.8588317200974
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1993,29892.73870769559,38181.62813003039,22347.16575315773
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1993,37402.26309759404,48899.36648937836,27848.354610097038
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1993,132.6989496856749,169.4947391635177,99.20286839199147
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1993,171.53049341385162,224.25735147794808,127.71532018181898
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1998,108.2780232605236,168.3635911832791,62.41496980127595
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1997,508508.10120553814,609349.3442463189,424095.2533530436
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1997,719887.9197194636,866287.9927538976,603811.4036525671
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1997,2272.3642553004747,2722.9923487422284,1895.14954093628
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1997,3329.2431356449138,4006.294972266565,2792.4277040484394
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1997,29858.008228492818,38315.622410550204,22010.31293975954
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1997,37496.04579278814,48315.578177917654,28030.10673492018
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1997,133.42613514326368,171.22057756584638,98.35723020678272
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1997,173.40678965430365,223.44354251177265,129.62995750087487
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1996,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1996,105.1220456190536,163.14067778339862,60.70394748857672
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1991,295654.17311162286,389742.97153643216,219615.51496880053
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1991,168911.25465867954,223686.44547055865,123639.04231007978
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1991,1305.1155785387423,1720.4547408371511,969.4557220620611
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1991,768.9724156021607,1018.3377458093955,562.8696158822496
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1993,101.67759070225927,159.3706341930525,58.15234520200124
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1994,103.52585300127126,161.99246123126463,59.46818264872558
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1999,539093.861142242,646529.823373712,452027.6598291069
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1999,765222.0781977809,921747.069942419,636217.6475043732
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1999,2422.0145690526274,2904.697612805838,2030.8477922585544
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1999,3559.4967344187808,4287.58628233426,2959.421458414976
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1999,29622.042315717936,38188.80867240467,22243.6979000615
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1999,37615.198470617725,48426.98768328866,28281.514454693566
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1999,133.0844649236918,171.5728143951589,99.93539950427905
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1999,174.97035166054408,225.2623250525868,131.5539125360683
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2001,112.85968899663654,174.02451207290093,65.48899107724463
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1999,101.23461766334607,156.52745201351647,60.33706511624783
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1999,0.4926245441009572,0.7639004852888672,0.28483527153525434
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1999,0.4709015869373267,0.7281009920691282,0.28066308116921285
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1999,7832.660603517613,11610.515999065537,4890.759396625302
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1999,6237.018535016585,9314.624819407427,3827.1157936778586
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1999,35.190194998638056,52.1631592026895,21.972964943913613
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1999,29.012031592432592,43.32778362211271,17.80216038972931
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1999,9719.547498938158,12093.550640244033,7644.112819616569
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1999,7301.81915511819,9168.67974642137,5740.609167549763
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1999,43.6675082835267,54.333313646319375,34.34309672413105
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1999,33.965043846058585,42.64890748210136,26.70294045042773
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1999,145100.95107421398,184569.39029750813,110368.67293196707
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1999,75970.849198403,98345.70453820805,57296.17431995047
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1999,651.902466001947,829.2243420367477,495.85898314968307
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1999,353.38498108890724,457.46355747120543,266.518114410495
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1998,13877.64699722714,17524.270885905753,10656.021360087767
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1998,14293.645661107657,18225.75977665208,10770.009034213897
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1998,62.136823214775866,78.4644920153208,47.71207363589431
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1998,66.25077023569962,84.47604284885168,49.91878285492781
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1998,90564.12194170627,121537.91674453326,66901.11960535849
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1998,136733.49880734138,180608.66157530894,100067.40663897753
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1998,405.49862925736596,544.1830339218279,299.54811810815914
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1998,633.7571133204165,837.1176412439336,463.81048771622346
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1998,160838.01324865638,235899.30415791913,102376.3247199601
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1998,80037.19658034957,108171.03254834012,56096.895681535774
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1998,720.1482497317025,1056.233334215667,458.3874767655996
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1998,370.97085283023273,501.3706365352225,260.00802278496093
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2001,103.34379066998758,160.30542040046524,61.69475909705421
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2001,0.511415831467702,0.7885799733169222,0.29675880840632224
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2001,0.4849656012743709,0.7522717532232918,0.28951750024851247
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2001,7710.179102866875,11386.527653760784,4689.899518195837
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2001,6185.018637750645,9286.171903539302,3732.2470895506676
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2001,34.938140373353995,51.59725814725219,21.25195349129111
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2001,29.024688015639367,43.57759582400315,17.514467411675
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2001,13450.68404415088,16997.579581730257,10307.7453582668
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2001,13873.90606341686,17638.348704922784,10468.845964339467
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2001,60.950839271352045,77.02334971867658,46.70883120289711
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2001,65.10664213542444,82.77219492060003,49.12757839469399
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2001,89726.1196187399,119214.97895144841,66730.07833192065
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2001,134861.07521060697,178190.59890522796,99437.87564697777
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2001,406.5876707365009,540.2143858971343,302.38270898514645
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2001,632.8680417469344,836.2022563645962,466.6361553020483
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2001,154583.91817405316,224627.90629183868,99060.90983144917
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2001,75840.97812044983,102321.45317136137,53465.297812856945
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2001,700.4862741281758,1017.8857348305585,448.8876233648619
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2001,355.90203646460424,480.16803659716777,250.89877324052478
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1999,13723.312974282611,17325.86780408721,10537.201570173269
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1999,14156.336141945558,18014.927810361318,10669.264080909603
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1999,61.655430260244486,77.84081264451059,47.34102455911661
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1999,65.84942293780242,83.79799608342918,49.62900540466849
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1999,90381.74772722075,120870.53845889124,67110.21511851368
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1999,135981.75373753035,179429.15934683557,99954.26566858772
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1999,406.06270178618985,543.0412516595644,301.50949670415315
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1999,632.5308981011594,834.6302661036061,464.94591880634135
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1999,158829.92525048286,232295.0147499691,101424.50727995826
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1999,78671.90136172855,106448.4800256758,55267.06241660814
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1999,713.5833306339724,1043.6436965737773,455.67507255703475
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1999,365.94915902989857,495.15431902802953,257.0795247520161
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1996,98.94707462792604,155.35785063238097,58.93378942097413
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1996,0.4692864064128797,0.7282934989124303,0.27099489173969127
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1996,0.45704103139244345,0.717604967655069,0.27221784981630087
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1996,7882.869325377651,11800.946573155772,4740.557918209393
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1996,6167.701615725731,9456.200689925192,3679.458701795734
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1996,35.19074801240633,52.681849720234894,21.162824379298225
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1996,28.488893869496433,43.678620440564025,16.99558684638468
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1996,9767.183979034973,12138.890510214333,7753.593176907674
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1996,7318.4882503860745,9228.551874601999,5809.400825566254
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1996,43.602715712982516,54.1905008776329,34.61363272899353
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1996,33.80442959802175,42.62710022390453,26.833886247502544
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1996,147598.22381381606,188280.8968929083,112740.78656396827
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1996,77311.69364990565,99845.93455666618,58666.345823093805
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1996,658.9087915727838,840.5246014642986,503.2980310761427
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1996,357.10622408312145,461.19290622506,270.98251569172805
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2004,13142.383960140884,16581.904103038214,10075.555200012212
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2004,13372.692256192497,17051.913165670045,10037.516139440693
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2004,61.00026600652842,76.96477018536544,46.7656057856962
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2004,64.28303509887897,81.96918851730919,48.25071795086271
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2004,87633.58617645167,115760.24017975671,65493.59307646919
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2004,131919.44137207078,174118.46816333354,97313.7418620103
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2004,406.75056246129327,537.3001934322639,303.9879683552573
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2004,634.1417208654009,836.9940312597508,467.790820567344
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2004,146017.0675031216,211727.8613939474,94069.54344319826
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2004,70963.23438143979,95499.89039863946,50207.384876324606
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2004,677.7370061776944,982.733110308985,436.62300466575795
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2004,341.122939126911,459.0715682993479,241.3487891888896
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2004,11905.909539850898,19776.208071919245,6072.497664608319
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2004,6461.273540826928,12798.40447908877,2874.7837490330503
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2004,55.26118025338713,91.79110552896954,28.185447479587953
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2004,31.059585149437577,61.52241213491889,13.819193704633642
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2004,205490.54650710773,264610.62806748674,152841.19181970033
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2004,114297.78772194103,148654.01256019933,84528.07384912841
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2004,953.7826650611795,1228.1880326450462,709.411122520317
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2004,549.433768391057,714.585434550131,406.32963310495387
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2000,13576.65100262529,17130.850565034933,10425.168272795641
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2000,14024.191832833085,17855.787779942068,10560.419501069058
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2000,61.22805245244349,77.25680042509073,47.0154789799673
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2000,65.49006988821648,83.38282901121276,49.3149708316692
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2000,90129.17524466665,119846.39014705217,67010.62753859308
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2000,135438.9197752999,178593.370779355,99652.12419946065
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2000,406.4650309055475,540.4838837457625,302.20488226520337
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2000,632.4716908751162,833.9940349738744,465.35477096461807
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2000,156573.24544830108,228330.79353743754,100159.90303141436
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2000,77240.15761409007,104738.37798382212,54272.20125338936
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2000,706.1148499069565,1029.7274195613438,451.7016600966796
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2000,360.6955310238176,489.1065222082936,253.43993403959325
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1994,15555.983362509833,25839.131627079452,7934.18363572665
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1994,8468.677361858803,16774.643202321375,3767.928397063339
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1994,69.1320142208515,114.83113432756357,35.26013644742064
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1994,38.90628231079219,77.06504524917666,17.310387405149694
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1994,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1994,301753.48257352103,391682.9007346844,226995.15810723946
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1994,160310.01990122927,210517.11095631865,118678.733677051
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1994,1341.0162226541747,1740.6696338408644,1008.7843457170061
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1994,736.4865403441179,967.1449035249543,545.2266179748757
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,1998,100.58240709254,156.16014436815797,59.71180804704903
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,1998,0.48481218687352834,0.7538438398995532,0.27946149266315573
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,1998,0.46619750482362854,0.7237992384727129,0.27676307144280277
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,1998,7860.797669250112,11680.871305480327,4859.2218258564735
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,1998,6222.595987787357,9333.534209007006,3826.690577447979
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,1998,35.19652828746195,52.3008140679902,21.757046249623823
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,1998,28.841611638534218,43.26074991843946,17.73663656007943
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1998,9758.297414484232,12138.690921123625,7702.096867725066
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1998,7323.740075522499,9210.470822029103,5776.182956102546
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1998,43.69253674215553,54.35069014043738,34.48594935067422
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1998,33.94539311476304,42.690353508146174,26.772495900423724
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1998,146143.65682894152,186043.63691825734,111400.36736377957
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1998,76619.69430746482,99154.66180307348,57958.22270120489
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1998,654.3546301585019,833.005809971497,498.7924058255222
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1998,355.13079612049313,459.5799331158785,268.6352373974744
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2001,9617.53416191242,12046.901155642938,7537.3766530408375
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2001,7235.682103847813,9123.34828477707,5671.214851197635
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2001,43.5811871697613,54.589694743053585,34.15509809011616
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2001,33.955179110164345,42.81350681911214,26.613540130824127
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2001,144014.6667207063,183083.80598252593,109432.92675010757
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2001,74291.55227637607,96474.60233154801,56080.17734112732
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2001,652.5924462427766,829.6315336082075,495.8876966736838
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2001,348.6309829138321,452.7302823333781,263.16972454264265
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2001,555327.4498940175,663841.1144049973,464605.0356685177
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2001,788966.2458378247,951683.8831212766,656305.5145891646
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2001,2516.4277170110895,3008.149840781462,2105.3254065548367
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2001,3702.4139265392964,4466.005587842962,3079.8715282161015
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2001,12885.501787517927,21403.35130282143,6572.129516867539
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2001,7008.281483666598,13881.91051880372,3118.1613950545548
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2001,58.389755182990385,96.98779785804618,29.78114782402428
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2001,32.88804698948847,65.14420496812485,14.632722546941817
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2001,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1999,13399.187870857022,22256.60512889497,6834.130293118819
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1999,7292.657982218361,14445.199695436644,3244.687679923605
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1999,60.19921682641106,99.99338847157041,30.70404679004549
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1999,33.9224298573232,67.19309676091754,15.092945603579182
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2001,29320.252157061354,38100.95518129454,22096.79127494028
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2001,37395.56289960525,48264.47709030384,28138.913381853905
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2001,132.8626834705622,172.65182854026918,100.13007286400222
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2001,175.48767593123927,226.49267073082012,132.04862100535777
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2003,214057.41388133378,276318.39085479855,159286.10672338185
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2003,119642.77851351147,155278.0876558489,88320.72478668876
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2003,983.4846224255162,1269.5420512260773,731.8384058181707
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2003,569.3431212365356,738.9205782749143,420.2911178149184
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2001,231128.89105296676,299422.4131596999,172185.92896186135
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2001,130068.21433111945,168725.06165555128,96227.09125400776
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2001,1047.3444951419597,1356.8118408575208,780.2485618199189
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2001,610.3763889521614,791.7829455002084,451.56877705315577
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1999,251754.74847622373,326352.96705014695,188301.7911618758
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1999,139706.35079715663,181729.82643964025,103297.56791233981
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1999,1131.0714378116575,1466.222670713087,845.993090343191
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1999,649.8561837254184,845.3320182317071,480.49757858965296
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,1993,14803.504678412148,18775.503996235697,11503.051993497318
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,1993,15028.356539576609,18990.978189550624,11495.71071625931
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,1993,65.71527425777649,83.34765457533203,51.0640036245269
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,1993,68.92153572917577,87.09451218942043,52.72047111581611
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,1993,91577.24824975348,123997.7654427669,67108.05597820308
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,1993,140069.2501684475,185587.70565466443,101647.10467418414
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,1993,406.5269755533685,550.4471637250765,297.90407064517234
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,1993,642.3714931583257,851.1236509786766,466.163717777115
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,1993,165805.70048915822,243359.4215970743,105243.7548485878
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,1993,84596.96379253482,115834.80768347613,59061.22336225928
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,1993,736.0396958591363,1080.313850056551,467.19492201592476
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,1993,387.97007824857224,531.2299329214492,270.86063638768746
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1993,16220.43794391494,26942.81816293164,8273.082472503074
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1993,8834.898813556276,17500.04977087589,3930.8695682171056
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1993,72.00528193975944,119.60375082236048,36.72561973993701
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1993,40.517723454232495,80.25696638015464,18.027358259643577
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1993,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2000,13130.418065587804,21810.16736833059,6697.046770910653
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2000,7148.8511627840635,14160.349064931392,3180.704394755811
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2000,59.21562879438114,98.35960807761015,30.2023769253916
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2000,33.383653607411276,66.1258959487976,14.853230445596013
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2003,13286.419696192499,16767.894912342403,10194.045642084102
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2003,13564.127664832666,17280.77648078201,10205.830242060212
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2003,61.04432087337429,77.03992353134677,46.836439567804305
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2003,64.54750447537074,82.233891098143,48.566401725354325
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2003,88574.955618957,117162.0803396549,66199.62051576999
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2003,133258.5876472451,175833.12515202392,98275.3701184441
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2003,406.95673746464496,538.299992773488,304.1534867078104
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2003,634.1365618994452,836.73566875181,467.6622079417181
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2003,149135.58981917577,216283.2439221452,96033.74663965442
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2003,72665.47199640585,97574.52702868175,51364.64961983752
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2003,685.2019585961602,993.7111760289545,441.22607734748607
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2003,345.7925931391472,464.3271116059431,244.4285421913428
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,1992,9561.773066315312,11807.880181896544,7630.538306520761
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,1992,7229.158089100347,9018.204259862854,5761.4905388622665
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,1992,42.35667017183183,52.30645852232451,33.80170100683814
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,1992,33.05606858215147,41.236666127324334,26.345007819817827
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,1992,148364.19582417983,189807.9863282085,113929.33740855561
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,1992,77934.73737407957,100022.62720688299,59383.95251343882
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,1992,657.2225950406826,840.8099854624155,504.6833190916894
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,1992,356.3645990054897,457.363746091374,271.5392280496872
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1992,507509.5545642114,612183.4333226534,418881.6701161048
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1992,707603.4465065596,847619.6059995401,590699.247491319
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1992,2248.1619949189376,2711.845553128102,1855.558861215588
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1992,3235.5895068824666,3875.8277910317356,2701.033038126339
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1992,29819.173053094106,38324.329281420934,22371.084104658494
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1992,37429.563799666896,48897.9586677537,28114.283672168356
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1992,132.09274776204273,169.76882463864706,99.09925954480734
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1992,171.15052855563974,223.5909431397742,128.55545248159234
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,1998,13673.401669301411,22712.085587240148,6973.9904730641965
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,1998,7436.9833934459875,14731.077545651537,3308.9016996749797
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,1998,61.222319780850725,101.69280478565133,31.225870870826014
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,1998,34.47027369557185,68.27825853111327,15.33669516057496
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,1998,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,1999,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,1999,109.64874900678237,170.0295561408985,63.39885328662641
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2003,107.3070993129916,167.31966916429246,63.267924661522585
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2003,0.5442896807585802,0.8361101624770299,0.31025252482379273
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2003,0.5106414245202274,0.796222754685563,0.3010725607386436
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2003,7481.179259085845,11146.944370660407,4501.507974786518
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2003,6053.340322080884,9116.419099882463,3600.6863788136084
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2003,34.372202417611504,51.214523135622954,20.68213284769777
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2003,28.80598157030677,43.38222974520182,17.134557112246483
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2000,239998.25911012583,311159.9107417151,179021.33447209327
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2000,134921.3966677953,175337.3076134641,99696.72165160513
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2000,1082.3454174706592,1403.2706101311271,807.3513604381687
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2000,630.0549651997088,818.7888946822668,465.5630318250364
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2000,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2000,111.49699268011301,171.91087103003667,64.33647590131547
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2003,12292.858147363166,20418.945709870244,6269.857178182372
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2003,6670.999872775486,13213.827601052706,2968.0962898224725
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2003,56.47941238929522,93.81463948233758,28.806795372035083
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2003,31.745233072346302,62.88053439861581,14.124255778523798
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2005,122.03675514603202,187.9436706125977,69.29836369121561
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2007,8916.212337512325,11145.257394715787,7037.287024622719
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2007,6828.61433357506,8579.435848142373,5372.146547347563
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2007,42.783077702959076,53.4788086115323,33.76734270064071
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2007,33.933473487038945,42.63384116675868,26.69583952583058
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2007,135624.69712886147,172966.21496185096,103930.68816600191
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2007,66771.60704178465,86807.38360698405,50203.29997491445
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2007,650.7743126857033,829.951860115104,498.69547058910234
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2007,331.808540731154,431.3724433994546,249.47555469408567
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2007,541966.9890194973,644444.3805606561,455550.5252218033
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2007,784993.6433845145,945015.3604686357,658624.9960121996
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2007,2600.545492406839,3092.267541987951,2185.889341844231
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2007,3900.873542427262,4696.070405036077,3272.909077643026
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2007,26377.680431971145,34415.282819805434,19686.502102096543
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2007,33624.711098733795,43310.75755308272,25656.923328885423
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2007,126.5692548389564,165.13645742311405,94.46266163827765
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2007,167.09147520136278,215.22440298098724,127.49710043793243
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2008,126.17766580773967,195.2075018604337,70.0843752402094
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2007,107.81468134607518,168.73258497767225,61.613724701516155
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2007,0.603603318066958,0.932801905772631,0.33762009698066436
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2007,0.5357641319677817,0.838483829814087,0.3061774455934184
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2007,6924.201503692941,10374.996981293563,4155.057338781276
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2007,5710.472772961649,8629.387189336356,3398.813387059968
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2007,33.224719168822915,49.78283212829943,19.937405509896976
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2007,28.377086034422746,42.88206466119646,16.889743412527825
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2004,108.75703191635353,170.1170400301074,64.0965066591623
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2004,0.560727084272127,0.8602023222387756,0.3213115447297646
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2004,0.5227991466483813,0.8177590155870686,0.30811432046366444
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2004,7340.850909540883,11035.058039842494,4378.8274491719985
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2004,5966.468005655735,9038.89354737309,3509.9405069461945
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2004,34.07249853256149,51.21913024831884,20.324291240180507
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2004,28.681036314605894,43.45030155702185,16.872416150795427
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2008,8768.878518890479,10959.172078017204,6915.62850467429
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2008,6750.655932158854,8462.244273497841,5322.7932184863475
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2008,42.732662114995854,53.40644148064464,33.70136962970185
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2008,34.073867951191026,42.71309289698557,26.8667452586637
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2008,132571.28270124088,169091.46424577676,101492.9502110139
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2008,65483.146261352114,84940.75171019213,49298.73674563458
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2008,646.0488439450438,824.019672821166,494.59733523256995
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2008,330.5255224323489,428.7375903221909,248.83487810851645
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2008,526871.1882339283,626146.3598243013,445260.4896354087
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2008,772901.3931025433,927619.337176887,651548.7096264052
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2008,2567.5584872597374,3051.3481024129896,2169.851710883895
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2008,3901.2120114741965,4682.149278763273,3288.685561623527
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2008,25151.314138362628,32913.6050055312,18919.088584990768
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2008,31695.153957686758,40648.97486661646,24374.570090878828
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2008,122.56785249190112,160.39519291524675,92.19685485258383
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2008,159.98097096047863,205.17529198283827,123.03039748880384
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2002,115.67212933925059,178.00539464617015,66.67693597141766
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2000,102.44518490414657,158.46283495788046,60.98181820446226
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2000,0.5028297269177497,0.7752845548240863,0.2901449790769016
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2000,0.4783977857017433,0.7399886039622187,0.2847724548926083
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2000,7785.719639328326,11479.270618398907,4784.2277172669965
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2000,6225.749253924534,9232.57687367807,3767.8579275289526
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2000,35.11207958167554,51.76927530973672,21.575935446864953
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2000,29.072958970189955,43.11422090575909,17.59511577879587
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2000,9664.803929624553,12044.379362302396,7615.1742956869175
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2000,7269.723900771519,9129.43350392224,5704.807552253836
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2000,43.58638384614934,54.317805709933836,34.342953289486324
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2000,33.94810424761472,42.63256274147178,26.640269168398472
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2000,144388.18922164018,183524.8437562184,109816.85455469365
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2000,75223.29963781053,97376.27743666944,56705.07898007687
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2000,651.1626189305765,827.661310411484,495.2526311191884
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2000,351.2772221903686,454.7270381635643,264.8009689034513
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1993,301400.95779830945,393732.6992982454,225880.13404401962
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1993,163255.0090581597,214564.98762516066,120313.85259759452
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1993,1337.97009786178,1747.8463972366687,1002.7203206638387
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1993,748.7036862705323,984.0163441620273,551.7712777629852
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2004,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2004,120.80751643879532,185.32885087840307,69.22592257569192
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2008,104.82646975639604,164.12773099216102,59.48324577647646
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2008,0.6148913510211612,0.9512888337253204,0.34153648271311576
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2008,0.529110552243282,0.8284330721573351,0.3002410850537488
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2008,6750.478429421241,10055.70591801989,4103.711660580312
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2008,5603.241237803624,8520.662034482726,3384.290562723995
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2008,32.89655720712679,49.003653363061865,19.998284094273842
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2008,28.28230381673911,43.00795595826541,17.082172592055283
+Incidence,Japan,Male,15 to 39,Road injuries,Number,1998,266941.76704557764,346121.9496722257,200396.39631885843
+Incidence,Japan,Female,15 to 39,Road injuries,Number,1998,144631.68546594458,188117.84556269334,107121.25766176076
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,1998,1195.2251985415924,1549.7525194172965,897.2699372905989
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,1998,670.3650551992024,871.9225632911788,496.50495030940436
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2005,12937.065589518363,16320.34315547033,9905.506965016206
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2005,13159.092539440262,16802.016782485305,9859.27395087404
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2005,60.83081436295912,76.73917689916934,46.5762541892108
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2005,64.07962208161773,81.81923505771277,48.010799139651006
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2005,86377.33515547022,114024.46648083924,64629.95865218914
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2005,130065.3906538046,172070.08844943086,95962.73934788829
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2005,406.15111700961313,536.1494927374498,303.8937222550951
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2005,633.3674646647248,837.9138763818647,467.30092161742897
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2005,142787.27472976403,206955.8517259685,91829.62055334274
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2005,69299.59884437287,93302.67030588347,49065.72245504769
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2005,671.3938444832827,973.1181240876102,431.7880714330779
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2005,337.4618797645461,454.34742817464104,238.93083376817256
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2005,109.12032848437643,171.25605396631053,63.62546607461198
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2005,0.5738237273652521,0.8837217728099729,0.32584482688041333
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2005,0.5313732227160293,0.8339498475642685,0.30983107753122846
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2005,7195.071250542115,10919.112952308653,4164.483213184016
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2005,5870.459827825528,8935.118498985506,3370.0449879091193
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2005,33.83163210709872,51.34228688986638,19.581635689016213
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2005,28.586838042585846,43.5105243734244,16.4107979768377
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2003,9416.975668400288,11786.57991443508,7384.2356339330045
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2003,7115.420969428709,8963.736260155541,5572.472976928781
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2003,43.26619943545224,54.15332217020305,33.926795912640564
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2003,33.8600961460364,42.65565915222979,26.51768202902934
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2003,142527.1476791525,181380.9172337442,109190.88869606417
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2003,71476.1538548068,93204.05835995145,53788.1575461829
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2003,654.8395380424638,833.3527891713836,501.67643341280063
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2003,340.13299452990265,443.52939774442166,255.9612697347034
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2003,565342.8743490326,671899.8141501218,473499.1151303782
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2003,801830.0272692387,965306.6418539452,673415.7096133388
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2003,2597.462116534518,3087.036898397428,2175.4868940020597
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2003,3815.6620574896597,4593.5968994686755,3204.5778839687864
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2009,125.95060334420651,195.09674631864297,70.25179348560349
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2003,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2003,118.46574802373405,181.98106510128926,67.52708847663254
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2009,101.75873490507296,159.98905635153415,57.088523838461015
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2009,0.6235927853115388,0.9659415692482064,0.3478229592366108
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2009,0.5219572624744779,0.8206415887247699,0.2928276343964904
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2009,6591.033231425687,9830.430880622225,3940.3211803734052
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2009,5501.083395031942,8394.428545347793,3270.431264008475
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2009,32.63279938114495,48.671349012174076,19.508885187123845
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2009,28.217041339922716,43.05805243800173,16.77522181525972
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2009,8612.28886276549,10746.899988258114,6804.243177153523
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2009,6661.993684275337,8329.873676162513,5253.186060351127
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2009,42.640218127121116,53.20887013798244,33.68842103266806
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2009,34.17176903103642,42.72692722471386,26.94548647728195
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2009,129581.48569457963,164837.9987519164,99250.6700884516
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2009,64218.9937385937,83152.78507926408,48399.2490658606
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2009,641.5696109708803,816.1277837309838,491.3990100972475
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2009,329.402386949201,426.52063341382575,248.2572092882577
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2009,512839.2686833669,609651.1279328894,433023.68914991413
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2009,759899.0024636615,910142.0642924404,641564.6753091243
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2009,2539.113426089861,3018.437663986617,2143.939300432845
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2009,3897.7961297673905,4668.446996556261,3290.816674726403
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2009,24085.18481385118,31269.561630688782,18179.688392564614
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2009,30023.815668693915,38700.04491945981,22913.86282934444
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2009,119.24792008948715,154.81841702228715,90.00927522223485
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2009,154.0029821527249,198.5064920730806,117.53346900664032
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1996,496277.4926731271,597324.2818582167,411504.98323352984
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1996,701302.0457738974,844093.7803874378,587886.7096262822
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1996,2215.484675442361,2666.5782999716344,1837.042778852215
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1996,3239.3459990950605,3898.907506168354,2715.475410666395
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1996,29904.942674516813,38509.05624240947,21965.716864911123
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1996,37380.45224258165,48472.161089874826,27704.301587691745
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1996,133.5018073427166,171.91233781581073,98.05947240764635
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1996,172.66200654348322,223.89511343961001,127.9674272257092
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2011,96.84100032390629,153.5939334986834,53.73492027056393
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2011,0.6283486514869933,0.9813878074069681,0.35018364586471135
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2011,0.5153930542489368,0.8174352416354861,0.28598015907971075
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2011,6314.55180482842,9357.808078591224,3806.583935646453
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2011,5298.44875500693,8024.137752108294,3126.515600545751
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2011,32.4222258150426,48.04790205789732,19.54500141262147
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2011,28.198631545427904,42.70489616940042,16.639485539519306
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2011,8254.103438723056,10261.897744808271,6531.827967612782
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2011,6414.308268834831,8010.037241969846,5058.408363718101
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2011,42.380902693104176,52.68997329606844,33.53783576357987
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2011,34.137296377688266,42.62985248994218,26.921123568479437
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2011,124440.47751568939,158609.31401407186,95295.18922701864
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2011,62017.116152158196,80114.98635614579,46918.57941418531
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2011,638.9427765024161,814.383530973814,489.29555726236805
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2011,330.0584546056306,426.37630106153284,249.70322347371274
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2011,493446.1511424416,587297.0588455405,415800.63063261093
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2011,729681.7131153481,873922.0025846077,616489.9049326173
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2011,2533.611732771049,3015.4915900508445,2134.9388455565845
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2011,3883.405639081134,4651.060280056179,3280.9926988994757
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2011,22941.551730247476,29954.646908072515,17338.941622793118
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2011,28456.217495674802,37012.76691110043,21664.274186383627
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2011,117.79397710805165,153.80289152442614,89.02723392944198
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2011,151.44553235110857,196.98395225897806,115.29844181349601
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2003,28841.458860627263,37503.5051930532,21595.02508797924
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2003,36921.32920074476,47514.29416472443,27874.09537063787
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2003,132.51179094161037,172.3094751806664,99.2181242864807
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2003,175.6972302760399,226.10588686754787,132.6442319138519
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2002,105.36600222803943,163.52791732330797,62.41164573113769
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2002,0.5272617829207726,0.8113920119460253,0.30392973952157076
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2002,0.49741924075344596,0.7719941039511684,0.2946372907512105
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2002,7607.389570681782,11254.686941673745,4652.79096494965
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2002,6128.081587468991,9194.315613573759,3694.7315933623363
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2002,34.6763374316954,51.30160858090486,21.20855623347262
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2002,28.929878955802497,43.405172399474004,17.44234900343395
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2002,9525.619828402781,11950.556000457862,7457.150526077458
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2002,7181.367340001855,9044.826559870182,5621.063442146861
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2002,43.42009888500298,54.4735495031458,33.99151121664353
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2002,33.9023044843654,42.699453951190726,26.536312002882273
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2002,143386.7731009148,182326.16031385987,109349.15782863917
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2002,72957.31975552496,94922.72006944056,54944.6023642031
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2002,653.5918899764798,831.0871158793799,498.4401363315197
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2002,344.42205106783683,448.117859164899,259.38634676820686
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2010,99.22813998888914,156.6015693444597,55.25860284074901
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2010,0.627981551889868,0.9733484476286884,0.3476237778878143
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2010,0.5178202135060272,0.8172223935912442,0.2883659970271075
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2010,6451.193244026711,9597.567783215316,3811.2610501399977
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2010,5402.698032690847,8240.212749587301,3148.2165378138025
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2010,32.49139058545337,48.3380844006727,19.19539017342
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2010,28.193879771502584,43.001397847467125,16.42890978261296
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2010,8441.267301423262,10530.484269412733,6668.985846750804
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2010,6550.395624352351,8187.713796107832,5166.411804134986
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2010,42.514384944321705,53.03671189330211,33.588301537281254
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2010,34.1831184292166,42.72743302959766,26.96082445742504
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2010,126858.39045825007,162081.19279494628,97121.66064531323
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2010,62993.229327535184,81413.99116586552,47522.454481320136
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2010,638.9214146138648,816.3208173205614,489.1525785956849
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2010,328.7290023119537,424.85740731013226,247.99504987801942
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2010,501623.51867373404,597670.1762483406,421939.51530659705
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2010,746069.0471174853,891703.3774596663,632196.4099645066
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2010,2526.4234158802815,3010.161748873692,2125.09547872517
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2010,3893.3475253277234,4653.337585002728,3299.1052741915814
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2010,23396.999451416657,30541.918193854308,17680.649724458268
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2010,29025.77882140849,37773.136281380954,22095.302248057782
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2010,117.8388274769946,153.82416178345318,89.04847123187238
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2010,151.4704900057931,197.11841314577805,115.30392617306552
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2005,11538.45580069923,19165.85221645563,5885.081326076483
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2005,6266.654025019338,12412.90473711203,2788.192612200181
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2005,54.25447200454942,90.1189214988378,27.671985364866938
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2005,30.516148468135086,60.44598000243983,13.577405003046351
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2005,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2010,124.68627140689668,193.25916238984706,69.0209968537614
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,1998,524282.17239168065,629569.4740576511,438219.65342053986
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,1998,743330.5931710768,894168.215788896,620824.8856211678
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,1998,2347.4605361463423,2818.881840614338,1962.1177235069545
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,1998,3445.322873179934,4144.452326636521,2877.51129621225
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,1998,29763.774669737304,38254.64183473763,22163.616711905855
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,1998,37594.43811002129,48178.26166870962,28472.775148545184
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,1998,133.26656926980638,171.28421823271685,99.23704888176766
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,1998,174.24949102692685,223.30530781618316,131.9707602289077
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2006,110.23813338323637,172.6319415039569,63.39852952051034
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2006,0.5921973094254076,0.9135775328088266,0.3336372736474274
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2006,0.5398550548381725,0.8454082393018002,0.3104734775576241
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2006,7092.721323782677,10689.85711027105,4238.842911509669
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2006,5813.9831146968845,8839.564094628347,3425.4285077977593
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2006,33.54028770062284,50.55053858591802,20.044776085176448
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2006,28.4720729287148,43.288862144111796,16.774911168829778
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2005,196801.42818280152,253087.8143838501,146256.89892606225
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2005,109028.41812770939,141738.89464673193,80531.36439935966
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2005,925.3714500645832,1190.0332225867771,687.7082137607524
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2005,530.9256553094652,690.2128529005048,392.15617497644826
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2008,12232.788548591596,15487.696573394558,9267.88803429623
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2008,12568.347779718755,16074.012488878849,9383.25223140172
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2008,59.61305298562824,75.47493139341495,45.16444457931718
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2008,63.438609064738266,81.13341644071885,47.361871305334546
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2008,77011.79260665181,101621.31743277337,57740.45472445311
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2008,119126.9373649114,157728.70342410076,88416.53173145774
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2008,375.2953020435487,495.2228967684346,281.3818593553136
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2008,601.2920187303479,796.1340448389058,446.28155503646377
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2008,133206.0037600897,192852.60627621118,86146.70581639909
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2008,65016.928106156585,87611.15144918532,46073.64520184177
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2008,649.1419784304433,939.8129127053302,419.8117312312728
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2008,328.17229098103127,442.21640615842483,232.55626096404052
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2008,10791.288426118788,17924.776310848036,5503.995603727874
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2008,5869.717479099322,11626.658119457365,2611.5855200537426
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2008,52.58830774144963,87.35135375957626,26.822173885730336
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2008,29.627339965713094,58.68543997165916,13.181951657414105
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2008,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2006,125.23120021926103,193.19306100530568,70.5538433757645
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2008,171167.081642592,221352.5788813735,127722.8746131758
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2008,93755.12076319149,122813.703412131,68908.08502343761
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2008,834.1346101768423,1078.6995100050199,622.421491350688
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2008,473.2280295036937,619.9009332895174,347.81286640203285
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2002,13379.577776954338,16860.218657513582,10294.130525229633
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2002,13732.215829444443,17524.356933250416,10352.398321109504
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2002,60.98737936010572,76.85298957125845,46.923158113853134
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2002,64.82801119246571,82.73021787012527,48.87233077059067
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2002,89258.0090832955,118333.80941992292,66585.62157532362
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2002,134215.31446412054,177095.24149831614,99061.51454841194
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2002,406.85977925753815,539.3943700263839,303.5135062286772
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2002,633.6131048584253,836.0436830135174,467.6565714993473
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2002,152002.95439399677,220410.80719389796,97454.67014261922
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2002,74318.09627499194,99866.29577895047,52479.40425308656
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2002,692.8665461664343,1004.6862268370703,444.222159883048
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2002,350.84610065532564,471.4558393865422,247.74846598305075
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2002,12623.585363990105,20968.29729272655,6438.541497836178
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2002,6856.906300454294,13582.06857423883,3050.8107537365677
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2002,57.54138152284761,95.5786141270963,29.348442783498932
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2002,32.37056596783211,64.1191854601963,14.402482173725804
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2002,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2007,12500.075620137646,15807.430180081868,9476.26304139725
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2007,12801.049034294796,16345.14522027971,9568.003892555433
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2007,59.97969612042945,75.84952983154636,45.470395128218016
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2007,63.612328474276275,81.22402655646567,47.54633818101926
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2007,81154.36435935058,107352.50152576214,60725.93325218635
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2007,124095.51669020721,164168.4401023395,92098.06755825177
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2007,389.4067732901329,515.114517300196,291.3840790873161
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2007,616.6685830773691,815.8031977630714,457.66347036607107
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2007,136498.6790520205,198009.45836764865,88171.18847662731
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2007,66415.12720352557,89621.91952574454,47062.46816278978
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2007,654.9679809289079,950.1180235045341,423.0759278676253
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2007,330.0370833681643,445.3587333423478,233.86780064361167
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2007,10985.949371330269,18248.116190350174,5603.280595876568
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2007,5976.287589669962,11837.750773536467,2659.001253200666
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2007,52.71439348936966,87.56078740069572,26.886482740691978
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2007,29.698001171024305,58.825404744987274,13.213390611891453
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2002,561419.0441720884,668522.9799400612,468923.3330346554
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2002,796844.3152597426,961535.6317945581,665745.4499343619
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2002,2559.0849575153948,3047.2908239884596,2137.466942480731
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2002,3761.7987388129436,4539.285099661445,3142.8979864369044
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2002,29115.93191776071,37816.38652263119,21959.733434844362
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2002,37197.85006553384,47753.15922557995,28132.821018163824
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2002,132.7175203054648,172.37631480842575,100.097821916658
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2002,175.60622920107778,225.4364757444055,132.8114019247062
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2012,94.03258361120595,149.4737454141053,52.007306041029835
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2012,0.6255521609901875,0.9848098441105219,0.3492666884097697
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2012,0.5111388723673483,0.8125039081706676,0.282699408479378
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2012,6171.664643943962,9161.070348604568,3783.121320405118
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2012,5189.341266975936,7810.33962786414,3095.0309151152023
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2012,32.354288946148166,48.025927235950725,19.832607145760548
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2012,28.208031106520927,42.45515795565934,16.823855637478623
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2012,8061.424079064688,10000.807425238872,6388.949974818032
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2012,6271.180743268098,7809.095006184715,4945.568231872622
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2012,42.26114979002147,52.42815865707634,33.49338395283449
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2012,34.088654490015415,42.448392486740865,26.882938574856986
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2012,122231.48586764633,155944.60532243064,93579.3199911242
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2012,61400.01367980265,79259.85425168539,46265.10508034408
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2012,640.7854347626417,817.5228420983477,490.57953292194185
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2012,333.75594448618386,430.8378114304935,251.48616290817105
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2011,122.37716602010174,191.13506228258723,68.20175720293939
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2013,11308.014414142493,14255.020362577729,8633.712542287469
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2013,11545.310883255977,14682.753902279712,8718.32402284679
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2013,60.60233180182944,76.39603578629509,46.27011365628848
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2013,64.2034841215944,81.65080754936244,48.48260766884611
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2013,65005.601388788535,85980.63864435817,48277.66183178904
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2013,95894.78150909854,125914.72579771315,71316.84502981002
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2013,348.3804388694322,460.7906393488378,258.7314424791932
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2013,533.2709655217923,700.2119024921842,396.59303883398917
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2013,123741.54616928418,179919.2086463353,80277.96624322479
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2013,60311.233186258716,81520.9183639628,42644.039264886436
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2013,663.1603006486813,964.2297206723737,430.2286651282886
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2013,335.390821553669,453.3378997484753,237.14354039565282
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2013,10698.203029097409,17770.157617182485,5456.518268701143
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2013,5800.336982376098,11489.23015662416,2580.7163851657856
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2013,57.33420792618104,95.23449021611138,29.242775830653766
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2013,32.25567913359269,63.89161915076409,14.35136612021679
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2013,133374.11369554777,172520.08731691592,98915.2971305481
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2013,76000.23746086642,99465.67828676415,55501.04605289409
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2013,714.783515118595,924.5760742031347,530.1105426152393
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2013,422.6373883212439,553.1287256880607,308.64136661376205
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2007,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2007,125.79402045074829,194.40069081635275,70.36175599594374
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2014,87.78077494530079,139.5197220683685,48.94138401950253
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2014,0.6140298842484998,0.9709768482129355,0.3440774309743497
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2014,0.4992497268876898,0.7935129666089631,0.27835220890300677
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2014,5900.297829682516,8741.790044288186,3555.3911830675706
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2014,4967.820868984645,7441.069663136989,2969.4466158241166
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2014,32.32057670117443,47.885666755771595,19.475676779725873
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2014,28.254287041929597,42.320792900134805,16.888611576755377
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2014,7664.188112661817,9490.080604255614,6099.9602672117635
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2014,5974.048569173058,7451.1761218515085,4715.692708028956
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2014,41.98279254673564,51.98464330514579,33.414285071969466
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2014,33.97716776175613,42.378272989096985,26.820317980067703
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2014,117785.97935880432,150381.8946616611,90047.63462011339
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2014,60144.21469612779,77547.57772674202,45282.69033235241
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2014,645.2065455133181,823.7600374050412,493.2617921179257
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2014,342.06787055169224,441.0488176369242,257.54353154496766
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2013,480422.149686443,571414.1311257792,404797.26930832886
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2013,691528.6198762865,829887.5789466978,580621.5678982409
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2013,2574.696268854536,3062.343883063093,2169.4045947109043
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2013,3845.591272058851,4615.005566882264,3228.8370570664893
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2013,21961.826250525042,28676.557576721043,16615.308876177925
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2013,27236.07918705361,35370.33007856317,20757.68489486784
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2013,117.69863679550092,153.68447488227758,89.04538185277629
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2013,151.45986065706825,196.69443712148444,115.43350421871519
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2014,473810.8417479027,562718.3766960363,397854.80717896146
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2014,673671.1871670265,809014.921598884,567169.4877983134
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2014,2595.4350262663133,3082.4515948448725,2179.3640223836805
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2014,3831.478548860187,4601.240748990801,3225.754295958143
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2014,21479.933107404748,28018.590213310545,16271.77470339536
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2014,26637.136885655927,34571.680837525375,20316.475565574485
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2014,117.6625054486999,153.47987850586287,89.13332132483524
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2014,151.4976750150649,196.62508364659755,115.5491607787005
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2013,90.88921028644917,144.01498786058573,50.26686551545225
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2013,0.6204705148532624,0.9717910846943154,0.34549518673429575
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2013,0.5054349794870667,0.8008674759714327,0.2795340839755285
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2013,6029.969862027536,9025.541474614585,3676.4177761803066
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2013,5076.346997004571,7582.192239392477,3039.42456727145
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2013,32.316038956989225,48.37001785668873,19.70279500489283
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2013,28.22957017905536,42.16457780749029,16.902242730129334
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2013,7859.151780243896,9731.33015923347,6240.662664188493
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2013,6118.941294117207,7612.7946206447505,4830.32543404017
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2013,42.119058786448896,52.152506849076,33.445191665606785
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2013,34.02743799541842,42.33475767693519,26.86144404792947
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2013,120002.24492115594,153170.16023226475,91807.40818628241
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2013,60817.572088404326,78422.33353179788,45750.22749507475
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2013,643.1204982000171,820.8752246482696,492.0176795859689
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2013,338.20657264021605,436.1066667324952,254.41705591482403
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2012,486795.6492814466,579090.2401255269,409631.5822363804
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2012,711085.7783236215,855327.7740520469,598789.6514033146
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2012,2551.973900596588,3035.818378968574,2147.4495679457796
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2012,3865.2940175673307,4649.359372503053,3254.8788457095407
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2012,22460.9993890357,29328.361777787984,16970.98117229304
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2012,27860.760418255497,36204.20224450824,21219.78016356273
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2012,117.74937657463504,153.75078621727135,88.96854580178886
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2012,151.4445005825288,196.797475933779,115.34570345883726
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2014,112.094509540728,177.2571276543644,62.813214565782204
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2013,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2013,115.77590031443806,181.33011167281114,64.4672314653465
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2005,9150.17303576635,11447.509764575618,7201.843446316255
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2005,6945.266550014777,8757.9974771241,5439.937269714391
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2005,43.02463131814261,53.8268385970969,33.863475354790076
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2005,33.820725437346816,42.648014431377,26.49036195666371
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2005,139557.6469286347,177979.32454570103,106859.20394386553
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2005,68690.40988794868,89505.00011347575,51603.8285082172
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2005,656.207951834557,836.8688538346863,502.4580228880849
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2005,334.4953683590707,435.8542630881629,251.29041526687422
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2005,560968.8456303992,669452.0043530953,469095.9875598264
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2005,797606.1391769497,957693.859217616,667905.2988395354
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2005,2637.7072509853997,3147.8012011246315,2205.7158742999877
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2005,3884.029222778851,4663.593662299851,3252.4369752450953
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2005,28028.702392991112,36803.39212143701,20950.825135197967
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2005,36068.502550301346,46958.400406743014,27060.199206435147
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2005,131.79254447655208,173.05163203935453,98.51196515403092
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2005,175.63946796072062,228.66900149859205,131.77256208241653
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2009,12010.627244817668,15229.283434691695,9096.523518719243
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2009,12358.66399209176,15826.84425681303,9231.902255845911
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2009,59.465697647084866,75.40155444420193,45.03770753830991
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2009,63.39204620784386,81.1815939889816,47.35375723163659
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2009,73247.8771689612,96481.26256154111,54712.841739762385
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2009,114098.80897908473,150553.5644359623,84589.88868256629
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2009,362.65683950017393,477.68742390778544,270.8882090827811
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2009,585.2539542858693,772.2435466800623,433.8920562540525
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2009,130325.14478562087,188501.93106664746,84412.90483164164
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2009,63839.930415104005,86071.73641317766,45327.96190250047
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2009,645.2515341343391,933.2900447424603,417.9358974275415
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2009,327.45803440965994,441.49298786543164,232.50346940975086
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2009,10716.965560045934,17801.322956945223,5466.087921904512
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2009,5822.724808328541,11533.575663765487,2590.677294236976
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2009,53.060662086810744,88.13595385974243,27.06309379608847
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2009,29.86685618617966,59.15987050759983,13.288518471816298
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2009,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2000,549270.4367252073,658131.492112487,459015.2219362632
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2000,780244.058514315,940124.9856892659,648092.7006933329
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2000,2477.1027187694826,2968.0448817514916,2070.069274060958
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2000,3643.578077871001,4390.188878642198,3026.45862010254
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2000,29482.96994134727,38320.4591642948,22128.94048048812
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2000,37549.86571418977,48636.41048756884,28040.652898134827
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2000,132.96245367679853,172.81780928591772,99.7972127437267
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2000,175.35009212852805,227.12195896277984,130.94403869396402
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2010,11829.050469964359,14974.659677568266,8969.289458015219
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2010,12165.785979129083,15584.883914702707,9145.298153039157
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2010,59.57693166772255,75.41977089565776,45.17376491925703
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2010,63.48692915020527,81.32942849761818,47.724569287636285
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2010,70558.6558855249,92883.19128643296,52807.724708349844
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2010,109533.90867034887,144088.68331197652,81054.18313846356
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2010,355.36818706894337,467.80555670150005,265.9657437818626
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2010,571.6006767856449,751.924129231532,422.97975577306505
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2010,127911.00429747185,184838.61345736403,82974.87356738462
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2010,62826.564052196394,84880.50082265084,44694.226075147766
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2010,644.2228970051226,930.9384106076214,417.90238237751703
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2010,327.85926265473915,442.9473238479035,233.23599224283672
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2011,11659.085528250522,14730.904030530333,8852.513038165216
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2011,11966.517084480327,15294.669032224481,9011.148851930011
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2011,59.86386927806749,75.63619900503032,45.45345190367005
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2011,63.68645272419692,81.39905783582509,47.95782275641689
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2011,68622.01059428326,90378.23186282597,51279.68717904473
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2011,105050.28154920807,137783.24828584772,77967.8551066002
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2011,352.3414475226643,464.049315420961,263.2968496944511
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2011,559.0832940207813,733.2899177090841,414.9491521382947
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2011,126041.14655672158,181628.24380997653,81895.06455840028
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2011,61897.82481628685,83732.59004406413,43984.12193531914
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2011,647.1614521436248,932.5748077153804,420.4922785208022
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2011,329.4235796483859,445.62938402786176,234.0858816707789
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2011,10681.808525515116,17742.925668796353,5448.156405679873
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2011,5791.881643047234,11472.481933219753,2576.954391196395
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2011,54.846015811047565,91.10150022260567,27.973696743695243
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2011,30.824708128521465,61.05717086359159,13.714690987253793
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2011,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2007,180087.20046182233,232569.29604650906,134121.2765611234
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2007,98972.77460011811,129290.0031779221,72786.82871480944
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2007,864.1208171155068,1115.9481052529986,643.5603796236614
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2007,491.82599262030385,642.4815754209229,361.7000172722497
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2004,9292.75907865005,11609.387798246798,7288.191281527849
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2004,7038.570514192725,8871.014023434138,5512.0358335303545
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2004,43.13226408933484,53.88487705227633,33.82807930646504
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2004,33.834673433112485,42.64329836551766,26.49656375581592
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2004,141320.65821044872,180027.4739518256,108215.59567480195
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2004,70018.52414894843,91149.47909504152,52614.04070202363
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2004,655.9386614483484,835.5960252607781,502.2817886190476
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2004,336.58168147511765,438.15897738899884,252.91767434308818
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2004,565715.7442934517,673778.1358438116,473314.211087902
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2004,802688.8835339437,965066.5901889325,673906.7364432081
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2004,2625.764928999368,3127.335621947143,2196.883979999216
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2004,3858.5556808725914,4639.1114295734205,3239.495051722973
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2006,9056.709906608407,11321.002379189844,7146.0883562670415
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2006,6904.365627349659,8695.556343683269,5419.560636137414
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2006,42.82765979683574,53.53511854247743,33.79265143261554
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2006,33.81186319091332,42.58363147757549,26.54051837261678
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2006,138469.25621880352,176553.67072163138,106078.00289114616
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2006,68027.70045609212,88463.50795191282,51070.21380455604
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2006,654.7978525107256,834.8926512520047,501.6250566262285
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2006,333.1433219443742,433.2209778129222,250.09960009217983
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2006,555600.2858414383,661166.6715276514,465416.809941513
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2006,795522.2153873605,955044.8826929854,665929.850906589
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2006,2627.340421677775,3126.5461264836367,2200.8779132209347
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2006,3895.8087916811173,4677.018665825318,3261.1727461835058
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2017,79.6178572945977,127.1009576543027,44.411913812542025
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2017,0.5911050735524032,0.9505854664754478,0.3296987318241289
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2017,0.47875146987302686,0.764272895138508,0.2670540220512992
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2017,5818.093235571184,8751.623900772642,3521.9603109656173
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2017,4721.090904605253,7227.567842908672,2801.883934169239
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2017,33.613492137739975,50.561692511653,20.34779788303834
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2017,28.3884707123022,43.460209128666605,16.848055165988008
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2017,102.31321446324066,164.53496856768226,57.066904966076365
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2017,7017.5785552132265,8699.173130837775,5568.13320338769
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2017,5560.500798955323,6959.7813648682695,4383.435867189649
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2017,40.543406927454434,50.25866307031559,32.16937131733441
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2017,33.43594039311872,41.849977776928604,26.35811155713663
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2017,111563.71134322693,142018.5829297608,85400.13766013688
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2017,56768.41757094607,73456.79384734329,42887.94130358846
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2017,644.5489582678533,820.4991442104024,493.391346541236
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2017,341.3551215513596,441.70427617073983,257.89019745843217
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2017,447772.0735145237,534841.694912072,375472.4820939538
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2017,636890.5159432755,766672.2093068482,532858.4542835125
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2017,2586.9614774405277,3089.9981108840893,2169.2573174386034
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2017,3829.6970179417626,4610.089489828052,3204.1400872993663
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2017,20353.240596091557,26624.60123276138,15381.9584025314
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2017,25215.1783663247,32793.87639569138,19229.750007535822
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2017,117.58895312496463,153.82115548377362,88.8678329637962
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2017,151.62181093772801,197.1934068657348,115.63073152463875
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2012,11482.657237371985,14492.17121733324,8736.95286790728
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2012,11759.175820250508,15002.724616367737,8867.771327702716
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2012,60.19659711939558,75.97365088246504,45.80253690137423
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2012,63.92009703342819,81.55126072633196,48.20310644227911
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2012,66758.56680966428,88118.87483137196,49556.79664144306
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2012,100388.07188472988,131488.59186626982,74673.70661265074
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2012,349.9746154078664,461.9537357236803,259.7961830858858
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2012,545.6858026410563,714.7408695435047,405.9085981439727
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2012,124743.24038997,180549.51722209487,80890.6322225865
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2012,61061.88397974347,82571.22412903335,43311.4896220363
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2012,653.9530380375211,946.5114497145142,424.0604502926603
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2012,331.9179514526545,448.83763447159004,235.43100822893396
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2002,222573.5784452197,287592.80278604536,165704.63669392403
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2002,124961.61378548044,161960.3990645927,92329.97091474973
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2002,1014.5446657932447,1310.9181513156266,755.3221565173557
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2002,589.9275832632643,764.5940534070678,435.87782643404483
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2015,10979.032401396005,13835.774739667993,8419.768549555985
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2015,11148.25948118792,14109.120704561063,8432.610301612245
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2015,61.313089805532314,77.26674520374986,47.020721530531375
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2015,64.69440648841915,81.87656482120033,48.935236888906914
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2015,62193.54227267578,82555.05399014064,46403.10041192132
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2015,89265.4759352049,117826.3324235664,65785.10456694772
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2015,347.32370788921935,461.033837422181,259.1410024848368
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2015,518.0160181308393,683.7573755537985,381.7571974278963
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2015,122008.26565981409,177179.95090511328,78954.40988879149
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2015,59108.16192508186,79840.6104278126,41687.993216850766
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2015,681.3627536490593,989.4724639125491,440.92581632592197
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2015,343.01026638438776,463.3226302290943,241.9193761509059
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2011,147969.59800627196,191237.375385375,109520.8629831649
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2011,82101.32423495292,107635.81772553218,60179.447604034336
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2011,759.7536402586828,981.9131366187557,562.3376386560502
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2011,436.94769894780643,572.843657733772,320.27828295780677
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2016,10841.272147060923,13645.770757128861,8321.3590212315
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2016,10981.521955293256,13894.945409274213,8307.051489200154
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2016,61.63055107584392,77.57358732521836,47.30532867560903
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2016,64.92179971955208,82.14570499858556,49.11056365751786
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2016,61296.34622145699,81443.4104356824,45541.66827380557
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2016,87143.99007120168,115252.63157462193,64412.15667376659
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2016,348.45796188118595,462.99015452794504,258.8956420016473
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2016,515.1876664452848,681.363502682094,380.79905063277846
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2016,121353.35247645128,175943.38766269153,78338.52008025198
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2016,59307.32831654136,80731.11555375083,41739.45966849917
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2016,689.870513955542,1000.2043849385514,445.3394488690963
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2016,350.6197507543386,477.2753117877516,246.7600440114279
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2016,10630.644953027357,17657.940859207974,5422.060904667958
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2016,5747.347616380847,11384.26952698784,2557.140078223794
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2016,60.43317590955715,100.38200418321563,30.823375429429415
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2016,33.97781768213551,67.30280822579913,15.11758904541129
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2016,118021.50342198052,154950.7321133209,87207.81587214406
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2016,73326.70733947148,97174.6535801116,52394.79131373945
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2016,670.929591659423,880.8651678703927,495.759692904494
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2016,433.50109642067844,574.4880739872262,309.753435076339
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2016,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2016,105.29012990845705,167.82048309893102,59.15941404104559
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2012,119.32569933314838,187.85503541806187,66.62352789621701
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2006,27502.229033999854,35912.53817064936,20376.983782616593
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2006,35338.367025065454,45304.5403487587,26715.06631949312
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2006,130.05342126099882,169.8243603994846,96.35933337014151
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2006,173.05804699981664,221.86410785250635,130.82826378034926
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2015,85.02974692498086,135.4906298524437,47.358000672948386
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2015,0.6074924474962166,0.9659573365423555,0.3429880357924373
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2015,0.49343568118903847,0.7862649678936168,0.2748229668662217
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2015,5800.936168082126,8597.9424040225,3422.3961137521983
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2015,4875.052160934589,7301.699887082531,2874.419799833975
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2015,32.39568909410955,48.01574451074538,19.112584114963724
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2015,28.290389785414437,42.372456556871086,16.680530558390302
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2015,7486.2256670621055,9283.835666555051,5948.233441941808
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2015,5844.593505910861,7293.024579557681,4608.609754182624
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2015,41.807293197412974,51.846158126914375,33.218279888096134
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2015,33.91673011101116,42.322112924990996,26.744199243540933
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2015,115624.89377196888,147805.46865084168,88356.27286938614
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2015,59227.256007849275,76381.27327522443,44633.54644612172
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2015,645.7144160258096,825.428839429014,493.43110533437886
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2015,343.70138063535416,443.2477688296372,259.01270074290085
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2009,162841.31638077888,210460.86321138623,121028.99414978866
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2009,89151.88120673287,116897.06738242916,65487.46766550295
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2009,806.2420294103209,1042.0106962917216,599.2254547527917
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2009,457.29216172474577,599.6072311546155,335.90884734326386
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2012,10676.21653777795,17733.637145928293,5445.3042647022485
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2012,5789.886056117317,11468.529101236885,2576.0665041816046
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2012,55.968918378263346,92.96668782036302,28.546422682371055
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2012,31.472450465633706,62.34021024835224,14.002887908886157
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2012,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2015,108.78067449901233,172.96921309791477,61.41717486755272
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2004,28486.12213787453,37163.97528324885,21343.139533427704
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2004,36555.9706137311,47549.18051549625,27614.493055836938
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2004,132.21809933227493,172.49628263896236,99.0640048945569
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2004,175.72592691257674,228.57070075662241,132.74390768426596
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2015,10653.239909566119,17695.472016352316,5433.585250653813
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2015,5764.319146216136,11417.886506997813,2564.6911403879985
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2015,59.49368135684296,98.82146488172658,30.3441950309749
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2015,33.45089039267203,66.25907767654887,14.883145789124422
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2015,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2017,10705.368946915998,13464.6813723558,8218.308723304004
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2017,10824.443584738676,13709.733913305165,8198.058504946619
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2017,61.849272666982145,77.79094337638655,47.480513713214656
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2017,65.08864283519127,82.43823038689449,49.295882766925146
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2017,60493.72917702343,80178.55777458027,45024.77422057885
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2017,85431.85300481135,113533.06813677939,63202.565906525444
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2017,349.49688974429466,463.224154761521,260.1264422876449
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2017,513.7117047585384,682.6875916612458,380.04440656492056
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2017,120709.00628946885,175873.79081536652,77476.54459687733
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2017,59410.21347759957,81713.9227594885,41806.226346151656
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2017,697.3850486029779,1016.094456627674,447.613525122673
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2017,357.240548720482,491.3553561915632,251.38571914849348
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2010,10698.342472499962,17770.389238440315,5456.589390502759
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2010,5805.653371784692,11499.760789879292,2583.0817810554336
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2010,53.88212858338955,89.50044367936327,27.4820750898176
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2010,30.296694756710735,60.011289016909046,13.479764505506457
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2010,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2012,140535.6882759796,181704.59036791223,104202.45356839019
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2012,78928.5957870089,103350.6004602295,57734.3447087253
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2012,736.7432496820118,952.5667966054674,546.2701695818026
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2012,429.0371688064754,561.7894069161222,313.8302354139387
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2006,12766.735322204675,16127.293413417316,9688.813137530447
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2006,13031.104747110738,16627.33886682935,9753.496925692527
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2006,60.37174677491514,76.2632614797133,45.81676979478949
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2006,63.81555594194429,81.42693150072918,47.764548038731505
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2006,84812.38060537583,112021.83527052593,63577.72867720975
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2006,128333.3450378696,170037.41545267092,94989.03533656675
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2006,401.0635010486971,529.732441499818,300.64839908985715
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2006,628.4704112517261,832.7024000363009,465.17760512484705
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2006,139768.41678887827,202870.86969925978,90057.81192713788
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2006,67846.98108192366,91487.15304954245,48114.340954188294
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2006,660.9413646128439,959.3422644384765,425.8682646386374
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2006,332.2583081595993,448.0282866805108,235.62418354841054
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2006,11233.463502817447,18659.247397810377,5729.522860726859
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2006,6110.217649172759,12103.03764965994,2718.590118481301
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2006,53.12116190094487,88.23644655277225,27.093951159720284
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2006,29.922784274655932,59.27065211954346,13.313402290594459
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2006,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2015,466627.6134172115,555106.5331640303,391977.52932987484
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2015,659452.677184677,796307.227984614,554631.7141006588
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2015,2605.910951091905,3100.0269855471265,2189.0229101152304
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2015,3826.8663937768088,4621.046324211807,3218.580409250868
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2015,21063.49953906214,27459.8984881271,15959.654210761999
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2015,26113.2168417037,33906.09896903969,19931.12232838355
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2015,117.63042421598948,153.35151227345483,89.12768230516103
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2015,151.53747254700582,196.76030620215585,115.66219209901763
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2015,121967.99251487086,158225.8396553224,90569.83907712623
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2015,71820.18351282037,94324.16359130386,52264.1655558957
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2015,681.1378457644316,883.6220498911179,505.79290359889654
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2015,416.77933260270305,547.3720621010987,303.2939067265827
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2019,6940.692092033085,8627.635176498563,5510.862986901135
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2019,5324.48894169282,6635.642673752062,4210.823974517776
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2019,41.360437510998295,51.413138755263866,32.839910080873715
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2019,33.073452004034415,41.217779187740646,26.155840709544986
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2019,112308.94689692574,143841.2750017422,85531.0341513629
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2019,56624.356888582486,72893.87789600494,42974.82333499073
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2019,669.2628225632258,857.1678425327157,509.6899482587857
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2019,351.72632910351007,452.7856472953779,266.9412543656802
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2019,433827.3596477909,520968.83993634395,359876.7841144363
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2019,619019.2453492067,746773.2499974576,515563.76697905
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2019,2585.230573744966,3104.517368534163,2144.5500021690364
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2019,3845.083260539474,4638.63659257321,3202.461999438318
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2014,11129.382150718864,14026.887512259415,8523.279484595254
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2014,11332.676252786308,14355.306886121964,8566.789220453698
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2014,60.96438854822113,76.83630670947345,46.68871238017325
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2014,64.45415328852775,81.64524688636315,48.72327888744476
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2014,63436.25740514999,84204.31934934815,47230.02428818723
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2014,92043.84619531939,120866.26700040292,68289.75607729545
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2014,347.4903271465735,461.2533537560823,258.7160286935592
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2014,523.4957780144974,687.4221699169005,388.3953188162399
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2014,122846.28492363465,178776.75832578688,79715.78830483065
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2014,59629.20836001878,80575.93713623566,42075.74990280039
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2014,672.92582322786,979.3010618528103,436.666135265158
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2014,339.1387921423473,458.27249342526846,239.3041831842745
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2019,77.43763071939544,124.71004427482652,42.675596196219495
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2019,0.5862577565737104,0.9468059332801512,0.32693190079326184
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2019,0.48100949986944735,0.7746455498193124,0.2650825831352901
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2019,5562.107577093856,8378.342103764415,3215.2451593491683
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2019,4695.9824191793095,7113.723914267573,2667.5712358012206
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2019,33.14528289418085,49.92757068510253,19.160041208058693
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2019,29.169437828363257,44.18741573603102,16.569813591642983
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2019,19734.459491725323,25920.010549332615,14901.502135110624
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2019,24423.56940960525,31806.13568802004,18581.126011346812
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2019,117.6000703961125,154.46052964093624,88.79988331231574
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2019,151.70878547809826,197.56613519739855,115.41802153162374
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2019,10412.272252256429,13107.721248048114,7979.441589525172
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2019,10509.914526109555,13350.949917035605,7965.491776160254
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2019,62.04801050478593,78.11052246702867,47.5504734772844
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2019,65.28310180606292,82.93040066845518,49.478234030026805
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2019,58311.05570165633,77719.3669822054,43312.64996008347
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2019,83020.4818998395,110122.56860378152,60973.22835560351
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2019,347.4827500728729,463.13926317976876,258.1054062556786
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2019,515.687787792303,684.0343791042244,378.7396618968178
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2019,119810.00596886099,174690.2586098074,76655.72539876269
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2019,57551.248080618396,78417.6589052636,40418.92959282269
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2019,713.9625558026822,1041.0007286311743,456.8008922129053
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2019,357.4837814502917,487.09701653496364,251.06513368354564
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2019,10275.463704269649,17067.97011777359,5240.904034932421
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2019,5553.2202475132735,10999.744623107901,2470.7679099915194
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2019,61.232751547185345,101.71013238090141,31.231191495553798
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2019,34.4942332184786,68.32571723462569,15.34735535730734
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Number,2018,10561.063110712234,13278.837894718936,8102.029961767817
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Number,2018,10665.634634734219,13532.300595405972,8083.608361025333
+Incidence,Japan,Male,15 to 39,Bipolar disorder,Rate,2018,61.99037885164419,77.94292896216605,47.55656713081492
+Incidence,Japan,Female,15 to 39,Bipolar disorder,Rate,2018,65.2131835433287,82.74091816512866,49.42582919755792
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Number,2018,59457.42036723532,79283.91817582028,44176.516478541525
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Number,2018,84093.4684946417,111201.02121504502,62092.592720435416
+Incidence,Japan,Male,15 to 39,Anxiety disorders,Rate,2018,348.99782109699134,465.3736156141957,259.30334514079107
+Incidence,Japan,Female,15 to 39,Anxiety disorders,Rate,2018,514.1750100717617,679.9194661221422,379.65444949444543
+Incidence,Japan,Male,15 to 39,Eating disorders,Number,2018,120121.87459482852,174752.17433519574,76919.9715842927
+Incidence,Japan,Female,15 to 39,Eating disorders,Number,2018,58685.45593686111,80337.99350597238,41235.25520448832
+Incidence,Japan,Male,15 to 39,Eating disorders,Rate,2018,705.0805810401913,1025.7446034196444,451.49793442020615
+Incidence,Japan,Female,15 to 39,Eating disorders,Rate,2018,358.8220992373999,491.2128059352261,252.1258563788508
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2018,10434.419285026197,17332.00191044867,5321.977840313667
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2018,5635.947962552277,11163.610578017535,2507.5755593327863
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2018,61.247016308385085,101.73382673912229,31.238467103417417
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2018,34.46003182273174,68.25797156595033,15.332138292735463
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2018,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2018,100.0674412554239,161.34145990995725,55.74487143129203
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2010,155299.8465886579,200744.52107749347,114841.30077577554
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2010,85397.65874775236,112136.95572742027,62732.84399957008
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2010,782.1666136020926,1011.0484053873137,578.397424740328
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2010,445.6461029162443,585.1846297148227,327.3701862932737
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2019,115937.02719970753,155809.70263126638,84971.02808284723
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2019,72796.30878791148,98231.0112237179,51773.127582790046
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2019,690.8829991476815,928.4891742546703,506.3528032456524
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2019,452.1795896532375,610.1691017847235,321.59256389849105
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2018,115392.86134463329,154120.2337561293,84300.06066169894
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2018,74192.7037715928,100107.06047188232,52777.73552628187
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2018,677.3226441828027,904.6410933342202,494.81691784747596
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2018,453.638491691429,612.0873564593701,322.70036165198593
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2006,189110.03134517866,243574.06458551457,140545.45468277694
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2006,104381.15533283843,136439.08983739844,76969.46173494296
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2006,894.2695714158359,1151.8208357086953,664.6158462858035
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2006,511.17242833186793,668.165634392354,376.93266123554497
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Autism spectrum disorders,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Autism spectrum disorders,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Attention-deficit/hyperactivity disorder,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2017,10559.857919420236,17540.36066924242,5385.956641081458
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2017,5704.572413610365,11299.540975677874,2538.1083104137533
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2017,61.008596249358,101.33780116207107,31.116863185061444
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2017,34.30225982982331,67.94545890603038,15.261941549260696
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2017,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Conduct disorder,Number,2014,10672.63412487686,17727.686609961744,5443.477088550548
+Incidence,Japan,Female,15 to 39,Conduct disorder,Number,2014,5783.062927011411,11455.013938079239,2573.0307217546156
+Incidence,Japan,Male,15 to 39,Conduct disorder,Rate,2014,58.462419998757106,97.10849712182782,29.81820983281627
+Incidence,Japan,Female,15 to 39,Conduct disorder,Rate,2014,32.890944385987474,65.14994409247801,14.634011671805087
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Number,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Idiopathic developmental intellectual disability,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Idiopathic developmental intellectual disability,Rate,2014,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2017,115872.17210149026,154000.17456978458,84539.1871390245
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2017,75101.4846120857,101335.5850359613,53472.69218671577
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2017,669.4406892800374,889.7216746998114,488.4172850402169
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2017,451.5939937273618,609.3427019380669,321.5375400989991
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Number,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Alzheimer's disease and other dementias,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Female,15 to 39,Alzheimer's disease and other dementias,Rate,2019,0.0,0.0,0.0
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Number,2019,98.37987264670976,158.88343666722827,54.86241913823432
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2016,82.08066848272621,131.8737326056277,45.28068939993518
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2016,0.5985541771372838,0.9540272317585379,0.3363099126389978
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2016,0.48525375096244555,0.7796260018735897,0.26769548522997366
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2016,5806.978485923397,8638.173040844318,3516.3259524885593
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2016,4790.845618509012,7277.718480015674,2874.987577470456
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2016,33.01155799045707,49.106355561792746,19.989638049342098
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2016,28.323061320495245,43.025236711120634,16.996675730431836
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2016,7233.934949895434,8982.750422471534,5725.850933718512
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2016,5694.935544129742,7109.107430125981,4473.394201715882
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2016,41.123531570944685,51.06521183159996,32.55036342933937
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2016,33.66796208366514,42.02842289460173,26.44631624038388
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2016,113396.78533804297,144860.9297453134,86721.90709216596
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2016,57928.22368398902,74802.20187532068,43589.762146354085
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2016,644.6389571086831,823.5065782370498,492.9973947649016
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2016,342.46660448632855,442.22409138746633,257.6988708313284
+Incidence,Japan,Male,15 to 39,Road injuries,Number,2014,127014.24009036309,164460.58367791938,94178.91870306531
+Incidence,Japan,Female,15 to 39,Road injuries,Number,2014,73554.68379156667,96426.53053627646,53637.64530562847
+Incidence,Japan,Male,15 to 39,Road injuries,Rate,2014,695.7569952367738,900.8801017368517,515.8920877287107
+Incidence,Japan,Female,15 to 39,Road injuries,Rate,2014,418.3393894293242,548.4221239213457,305.06201143041227
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2016,456943.8447422531,544157.2465877765,384173.7832588094
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2016,647423.1727587495,780789.2829866284,541949.7544959671
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2016,2597.6380428577827,3093.4294909486593,2183.9542121955733
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2016,3827.5093130766386,4615.958121250864,3203.9596663091156
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2016,20687.174860905176,27032.677459527098,15653.70689534512
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2016,25639.81773877438,33320.50205821479,19579.32504110645
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2016,117.60261799401226,153.6755821905886,88.98831882948362
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2016,151.58036553213608,196.98790112928174,115.75126144969578
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Number,2018,78.11550547593353,124.94537787091889,43.54735377696541
+Incidence,Japan,Male,15 to 39,Parkinson's disease,Rate,2018,0.5873668710346373,0.9470275974537858,0.32720623509548774
+Incidence,Japan,Female,15 to 39,Parkinson's disease,Rate,2018,0.47762378617321677,0.7639569644971097,0.2662627843480671
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Number,2018,5717.489200278621,8607.432549268355,3442.1893703355404
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Number,2018,4688.370046024261,7158.077788617545,2813.4295674618065
+Incidence,Japan,Male,15 to 39,Idiopathic epilepsy,Rate,2018,33.56000412931472,50.52313380533662,20.204653727498865
+Incidence,Japan,Female,15 to 39,Idiopathic epilepsy,Rate,2018,28.666230074554168,43.76683213264531,17.202229876842832
+Incidence,Japan,Male,15 to 39,Schizophrenia,Number,2018,6940.245641360056,8588.985089734248,5511.38283697287
+Incidence,Japan,Female,15 to 39,Schizophrenia,Number,2018,5443.858306148121,6776.369499635818,4298.288450519292
+Incidence,Japan,Male,15 to 39,Schizophrenia,Rate,2018,40.73722996646005,50.41485256571315,32.35021952608679
+Incidence,Japan,Female,15 to 39,Schizophrenia,Rate,2018,33.28553274706831,41.432942630345146,26.281143433605866
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Number,2018,111155.63704367998,142118.22528515325,84679.37269596044
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Number,2018,56344.70650916076,72698.9350522061,42671.9982733506
+Incidence,Japan,Male,15 to 39,Alcohol use disorders,Rate,2018,652.4513658898946,834.1927829418895,497.0433695276111
+Incidence,Japan,Female,15 to 39,Alcohol use disorders,Rate,2018,344.50999055514256,444.50510047705086,260.9105740879303
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Number,2018,440447.5553147418,525672.867665537,369688.6187120458
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Number,2018,627407.3672670777,753943.1420410391,526542.8493539252
+Incidence,Japan,Male,15 to 39,Major depressive disorder,Rate,2018,2585.2994657845593,3085.5473428204173,2169.965020647929
+Incidence,Japan,Female,15 to 39,Major depressive disorder,Rate,2018,3836.1741423973085,4609.855314472943,3219.4554430469166
+Incidence,Japan,Male,15 to 39,Dysthymia,Number,2018,20033.345281665304,26274.541874501367,15120.501374921067
+Incidence,Japan,Female,15 to 39,Dysthymia,Number,2018,24805.40685530033,32285.04589807799,18894.782319048256
+Incidence,Japan,Male,15 to 39,Dysthymia,Rate,2018,117.5899292199646,154.22394392299827,88.75295970037536
+Incidence,Japan,Female,15 to 39,Dysthymia,Rate,2018,151.66838219392605,197.40134515761207,115.5288878329406
