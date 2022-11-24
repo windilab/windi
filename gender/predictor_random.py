@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-import codecs
 import japanize_matplotlib
+import seaborn as s
 import matplotlib.pyplot as plt
 
 # モデルはRandom Forestを使う
@@ -11,6 +11,9 @@ from sklearn.ensemble import RandomForestRegressor
 import shap
 
 from sklearn.model_selection import train_test_split, GridSearchCV
+
+TRIAL = 2  # ランダム化を何回するか
+FEATURE = "非労働力人口【人】"  # 調べたい項目
 
 df = pd.read_csv("gender_gap_full.csv", delimiter=",")
 # print(df.head(10))
@@ -28,32 +31,45 @@ X = df.drop(["incidence_ratio"], axis=1)
 
 Y_train, Y_val, X_train, X_val = train_test_split(y, X, test_size=.2)
 
-# sklearnの機械学習モデル（ランダムフォレスト）のインスタンスを作成する
-# 教師データと教師ラベルを使い、fitメソッドでモデルを学習
-model = RandomForestRegressor(n_estimators=500, n_jobs=-1)
-model.fit(X_train, Y_train)
+j = X.columns.get_loc(FEATURE)  # カラム数を抽出
+ls0 = []
+for i in range(TRIAL):
+    model = RandomForestRegressor(random_state=i)
 
-# 学習済みモデルの評価
-# predicted_Y_val = model.predict(X_val)
-# print("model_score: ", model.score(X_val, Y_val))
+    model.fit(X_train, Y_train)
 
-# shap valueで評価
-# Fits the explainer
-# explainer = shap.Explainer(model.predict, X_val)
-explainer = shap.TreeExplainer(model)
+    # 学習済みモデルの評価
+    predicted_Y_val = model.predict(X_val)
+    print("model_score: ", model.score(X_val, Y_val))
 
-# Calculates the SHAP values - It takes some time
-shap_values = explainer.shap_values(X_val[:100])
+    # shap valueで評価
+
+    # 短時間の近似式
+    explainer = shap.TreeExplainer(model)
+    shap_values = explainer.shap_values(X_val[:100])
+
+    # print(shap_values)
+
+    # print("shap value\n", shap_values)
+
+    ls0.append(np.abs(shap_values[:, j]).mean())
+
+    print("random_state ", i, ": ランダム化前のshap value近似値\n", np.abs(shap_values[:, j]).mean())
+
+
+true_shap = pd.DataFrame(ls0, columns=['shap_value'])
+true_shap['color'] = 1
+print("ランダム化前の95%CI:", np.quantile(ls0, [0.025, 0.975]))
 
 # print(shap_values)
 # print("ランダム化前のshap value\n", shap_values.abs.mean(0).values)
 
-j = X.columns.get_loc("非労働力人口【人】")  # カラム数を抽出
+
 print("ランダム化前のshap value\n", np.abs(shap_values[:, j]).mean())
 
 # yをランダム化
 ls = []
-for i in range(1000):
+for i in range(TRIAL):
     y = y.sample(frac=1, random_state=i)
     # print("ランダム化", i+1, "回目のy:\n", y)
 
@@ -61,18 +77,12 @@ for i in range(1000):
 
     # sklearnの機械学習モデル（ランダムフォレスト）のインスタンスを作成する
     # 教師データと教師ラベルを使い、fitメソッドでモデルを学習
-    model = RandomForestRegressor(n_estimators=500, n_jobs=-1)
+    model = RandomForestRegressor()
     model.fit(X_train, Y_train)
 
     # 学習済みモデルの評価
     # predicted_Y_val = model.predict(X_val)
-    # print("model_score: ", model.score(X_val, Y_val))
-
-    # shap valueで評価
-    # Fits the explainer
-    # explainer = shap.Explainer(model.predict, X_val)
-    # Calculates the SHAP values - It takes some time
-    # shap_values = explainer(X_val[:100])
+    print("model_score: ", model.score(X_val, Y_val))
 
     explainer = shap.TreeExplainer(model)
     shap_values = explainer.shap_values(X_val[:100])  # , check_additivity=False)  # 数が少ないとSHAPの予測が不正確になるためエラーになる
@@ -81,10 +91,18 @@ for i in range(1000):
 
     ls.append(np.abs(shap_values[:, j]).mean())
 
-print(ls)
-plt.hist(ls)
-plt.show()
-
 # 数値的に上下5%の値をみてみる
 print(ls)
-print(np.quantile(ls, [0.05, 0.95]))
+print("ランダム化後の95%CI:", np.quantile(ls, [0.025, 0.975]))
+
+shap_random = pd.DataFrame(ls, columns=['shap_value'])
+shap_random['color'] = 0
+
+# ランダム化前後のshapのデータフレームを結合
+df4plot = pd.concat([shap_random, true_shap])
+df4plot["shap_value"] = np.sqrt(df4plot["shap_value"])
+
+s.displot(data=df4plot, x='shap_value', hue='color', multiple='stack')
+plt.show()
+
+
