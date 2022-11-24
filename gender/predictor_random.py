@@ -12,7 +12,7 @@ import shap
 
 from sklearn.model_selection import train_test_split, GridSearchCV
 
-TRIAL = 2  # ランダム化を何回するか
+TRIAL = 1000  # ランダム化を何回するか
 FEATURE = "非労働力人口【人】"  # 調べたい項目
 
 df = pd.read_csv("gender_gap_full.csv", delimiter=",")
