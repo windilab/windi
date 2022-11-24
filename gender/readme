@@ -6,6 +6,9 @@ raw data(GBDとestat人口密度)を読み込み、データフレームに整�
 2. analysis.py
 発症率の女性/男性比を計算して、年・都道府県でset_indexしたデータフレームに変形
 
+★宇野先生の、missforestによる
+estatデータの補完プログラム&描画
+
 3. predictor.py
 estatの社会指標をX、発症率をyとするデータフレームを作成し、shap valueを計算
 
