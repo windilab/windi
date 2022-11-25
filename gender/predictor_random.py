@@ -100,7 +100,7 @@ shap_random['color'] = 0
 
 # ランダム化前後のshapのデータフレームを結合
 df4plot = pd.concat([shap_random, true_shap])
-df4plot["shap_value"] = np.sqrt(df4plot["shap_value"])
+# df4plot["shap_value"] = np.sqrt(df4plot["shap_value"])
 
 s.displot(data=df4plot, x='shap_value', hue='color', multiple='stack')
 plt.show()
