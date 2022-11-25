@@ -85,7 +85,6 @@ shap_values = explainer(X_val)
 
 shap.plots.bar(shap_values, max_display=10)
 shap.summary_plot(shap_values, max_display=10)
-plt.savefig("/Volumes/Pegasus32R8/WINDI/202211/shapB.svg")
 # or
 # shap.plots.beeswarm(shap_values)
 
@@ -102,9 +101,10 @@ shap_values = explainer.shap_values(X_val[:100])  # , check_additivity=False)  #
 
 shap.summary_plot(shap_values, X_val[:100], plot_type="bar")
 shap.summary_plot(shap_values, X_val[:100])
-'''
 
-print("非労働力人口のshap value\n", shap_values)
+
+# print("非労働力人口のshap value\n", shap_values)
 j = X.columns.get_loc("非労働力人口【人】")  # カラム数を抽出
 print("非労働力人口【人】の列名: ", j)
 print("非労働力人口のshap value絶対値の平均\n", np.abs(shap_values[:, j]).mean())
+'''
