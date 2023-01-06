@@ -1,3 +1,4 @@
+import optuna
 import pandas as pd
 import numpy as np
 import codecs
@@ -6,11 +7,33 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 from boruta import BorutaPy
 import shap
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
 from multiprocessing import cpu_count
 
-# with codecs.open("gender_gap_full.csv", "r", "Shift-JIS", "ignore") as file:
-#    df = pd.read_table(file, delimiter=",")
+
+# optunaの目的関数を設定する
+def objective(trial):
+    criterion = trial.suggest_categorical('criterion', ['squared_error', 'mae'])
+    bootstrap = trial.suggest_categorical('bootstrap', ['True', 'False'])
+    max_depth = trial.suggest_int('max_depth', 1, 1000)
+    max_features = trial.suggest_categorical('max_features', [1.0, 'sqrt', 'log2'])
+    max_leaf_nodes = trial.suggest_int('max_leaf_nodes', 1, 1000)
+    n_estimators = trial.suggest_int('n_estimators', 1, 1000)
+    min_samples_split = trial.suggest_int('min_samples_split', 2, 5)
+    min_samples_leaf = trial.suggest_int('min_samples_leaf', 1, 10)
+
+    regr = RandomForestRegressor(bootstrap=bootstrap, criterion=criterion,
+                                 max_depth=max_depth, max_features=max_features,
+                                 max_leaf_nodes=max_leaf_nodes, n_estimators=n_estimators,
+                                 min_samples_split=min_samples_split, min_samples_leaf=min_samples_leaf,
+                                 n_jobs=2)
+
+    score = cross_val_score(regr, X_train, Y_train, cv=5, scoring="r2")
+    r2_mean = score.mean()
+    print(r2_mean)
+
+    return r2_mean
+
 
 df = pd.read_csv("gender_gap_full.csv", delimiter=",")
 print(df.head(10))
@@ -29,6 +52,23 @@ print(y)
 
 Y_train, Y_val, X_train, X_val = train_test_split(y, X, test_size=.2)
 
+# optunaで学習
+study = optuna.create_study(direction='maximize')
+study.optimize(objective, n_trials=100)
+
+# チューニングしたハイパーパラメーターをフィット
+optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=study.best_params['criterion'],
+                                     max_depth=study.best_params['max_depth'],
+                                     max_features=study.best_params['max_features'],
+                                     max_leaf_nodes=study.best_params['max_leaf_nodes'],
+                                     n_estimators=study.best_params['n_estimators'],
+                                     min_samples_split=study.best_params['min_samples_split'],
+                                     min_samples_leaf=study.best_params['min_samples_leaf'],
+                                     n_jobs=int(cpu_count() / 2))
+
+optimised_rf.fit(X_train, Y_train)
+
+"""
 # sklearnの機械学習モデル（ランダムフォレスト）のインスタンスを作成する
 # 教師データと教師ラベルを使い、fitメソッドでモデルを学習
 model = RandomForestRegressor(max_depth=None,
@@ -41,10 +81,11 @@ model = RandomForestRegressor(max_depth=None,
                               # n_jobs=-1,  # number of jobs to run in parallel(-1 means using all processors)
                               random_state=2525)
 model.fit(X_train, Y_train)
+"""
 
 # 学習済みモデルの評価
-predicted_Y_val = model.predict(X_val)
-print("model_score: ", model.score(X_val, Y_val))
+predicted_Y_val = optimised_rf.predict(X_val)
+print("model_score: ", optimised_rf.score(X_val, Y_val))
 
 # Borutaを実行
 rf = RandomForestRegressor(n_jobs=int(cpu_count() / 2), max_depth=7)
@@ -64,7 +105,7 @@ rf2 = RandomForestRegressor(n_estimators=500,
 rf2.fit(X_train_selected.values, Y_train.values)
 
 predicted_Y_val_selected = rf2.predict(X_val_selected.values)
-print("model_score_2: ", model.score(X_val, Y_val))
+print("model_score_2: ", rf2.score(X_val, Y_val))
 
 # shap valueで評価（時間がかかる）
 # Fits the explainer
