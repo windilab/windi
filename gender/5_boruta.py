@@ -56,6 +56,24 @@ Y_train, Y_val, X_train, X_val = train_test_split(y, X, test_size=.2)
 study = optuna.create_study(direction='maximize')
 study.optimize(objective, n_trials=100)
 
+# 最適化したハイパーパラメータの確認
+print('check!!!')
+print('best_param:{}'.format(study.best_params))
+print('====================')
+
+# 最適化後の目的関数値
+print('best_value:{}'.format(study.best_value))
+print('====================')
+
+# 最適な試行
+print('best_trial:{}'.format(study.best_trial))
+print('====================')
+
+# トライアルごとの結果を確認
+for i in study.trials:
+    print('param:{0}, eval_value:{1}'.format(i[5], i[2]))
+print('====================')
+
 # チューニングしたハイパーパラメーターをフィット
 optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=study.best_params['criterion'],
                                      max_depth=study.best_params['max_depth'],
@@ -99,8 +117,27 @@ X_val_selected = X_val.iloc[:, feat_selector.support_]
 print(X_val_selected.head())
 
 # optunaで学習
-study = optuna.create_study(direction='maximize')
-study.optimize(objective, n_trials=100)
+study2 = optuna.create_study(direction='maximize')
+study2.optimize(objective, n_trials=100)
+
+
+# 最適化したハイパーパラメータの確認
+print('check!!!')
+print('best_param:{}'.format(study2.best_params))
+print('====================')
+
+# 最適化後の目的関数値
+print('best_value:{}'.format(study2.best_value))
+print('====================')
+
+# 最適な試行
+print('best_trial:{}'.format(study2.best_trial))
+print('====================')
+
+# トライアルごとの結果を確認
+for i in study2.trials:
+    print('param:{0}, eval_value:{1}'.format(i[5], i[2]))
+print('====================')
 
 # チューニングしたハイパーパラメーターをフィット
 optimised_rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
