@@ -13,7 +13,7 @@ from multiprocessing import cpu_count
 
 # optunaの目的関数を設定する
 def objective(trial):
-    criterion = trial.suggest_categorical('criterion', ['squared_error', 'mae'])
+    criterion = trial.suggest_categorical('criterion', ['squared_error', 'absolute_error'])
     bootstrap = trial.suggest_categorical('bootstrap', ['True', 'False'])
     max_depth = trial.suggest_int('max_depth', 1, 1000)
     max_features = trial.suggest_categorical('max_features', [1.0, 'sqrt', 'log2'])
@@ -26,7 +26,7 @@ def objective(trial):
                                  max_depth=max_depth, max_features=max_features,
                                  max_leaf_nodes=max_leaf_nodes, n_estimators=n_estimators,
                                  min_samples_split=min_samples_split, min_samples_leaf=min_samples_leaf,
-                                 n_jobs=2)
+                                 n_jobs=int(cpu_count() / 2))
 
     score = cross_val_score(regr, X_train, Y_train, cv=5, scoring="r2")
     r2_mean = score.mean()
@@ -99,8 +99,13 @@ X_val_selected = X_val.iloc[:, feat_selector.support_]
 print(X_val_selected.head())
 
 # 選択したFeatureで学習
-rf2 = RandomForestRegressor(n_estimators=500,
-                            random_state=42,
+rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=study.best_params['criterion'],
+                            max_depth=study.best_params['max_depth'],
+                            max_features=study.best_params['max_features'],
+                            max_leaf_nodes=study.best_params['max_leaf_nodes'],
+                            n_estimators=study.best_params['n_estimators'],
+                            min_samples_split=study.best_params['min_samples_split'],
+                            min_samples_leaf=study.best_params['min_samples_leaf'],
                             n_jobs=int(cpu_count() / 2))
 rf2.fit(X_train_selected.values, Y_train.values)
 
