@@ -98,6 +98,23 @@ X_train_selected = X_train.iloc[:, feat_selector.support_]
 X_val_selected = X_val.iloc[:, feat_selector.support_]
 print(X_val_selected.head())
 
+# optunaで学習
+study = optuna.create_study(direction='maximize')
+study.optimize(objective, n_trials=100)
+
+# チューニングしたハイパーパラメーターをフィット
+optimised_rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
+                                      criterion=study.best_params['criterion'],
+                                      max_depth=study.best_params['max_depth'],
+                                      max_features=study.best_params['max_features'],
+                                      max_leaf_nodes=study.best_params['max_leaf_nodes'],
+                                      n_estimators=study.best_params['n_estimators'],
+                                      min_samples_split=study.best_params['min_samples_split'],
+                                      min_samples_leaf=study.best_params['min_samples_leaf'],
+                                      n_jobs=int(cpu_count() / 2))
+
+optimised_rf2.fit(X_train_selected, Y_train)
+
 # 選択したFeatureで学習
 rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=study.best_params['criterion'],
                             max_depth=study.best_params['max_depth'],
@@ -110,7 +127,7 @@ rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=
 rf2.fit(X_train_selected.values, Y_train.values)
 
 predicted_Y_val_selected = rf2.predict(X_val_selected.values)
-print("model_score_2: ", rf2.score(X_val, Y_val))
+print("model_score_2: ", rf2.score(X_val_selected, Y_val))
 
 # shap valueで評価（時間がかかる）
 # Fits the explainer
