@@ -15,10 +15,10 @@ from multiprocessing import cpu_count
 def objective(trial):
     criterion = trial.suggest_categorical('criterion', ['squared_error', 'absolute_error'])
     bootstrap = trial.suggest_categorical('bootstrap', ['True', 'False'])
-    max_depth = trial.suggest_int('max_depth', 1, 1000)
+    max_depth = trial.suggest_int('max_depth', 4, 7)
     max_features = trial.suggest_categorical('max_features', [1.0, 'sqrt', 'log2'])
-    max_leaf_nodes = trial.suggest_int('max_leaf_nodes', 1, 1000)
-    n_estimators = trial.suggest_int('n_estimators', 1, 1000)
+    max_leaf_nodes = trial.suggest_int('max_leaf_nodes', 2, 1000)
+    n_estimators = trial.suggest_int('n_estimators', 10, 1000)
     min_samples_split = trial.suggest_int('min_samples_split', 2, 5)
     min_samples_leaf = trial.suggest_int('min_samples_leaf', 1, 10)
 
@@ -69,13 +69,10 @@ print('====================')
 print('best_trial:{}'.format(study.best_trial))
 print('====================')
 
-# トライアルごとの結果を確認
-for i in study.trials:
-    print('param:{0}, eval_value:{1}'.format(i[5], i[2]))
-print('====================')
 
 # チューニングしたハイパーパラメーターをフィット
-optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=study.best_params['criterion'],
+optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
+                                     criterion=study.best_params['criterion'],
                                      max_depth=study.best_params['max_depth'],
                                      max_features=study.best_params['max_features'],
                                      max_leaf_nodes=study.best_params['max_leaf_nodes'],
@@ -99,6 +96,13 @@ model = RandomForestRegressor(max_depth=None,
                               # n_jobs=-1,  # number of jobs to run in parallel(-1 means using all processors)
                               random_state=2525)
 model.fit(X_train, Y_train)
+check!!!
+best_param:{'criterion': 'squared_error', 'bootstrap': 'False', 'max_depth': 7, 'max_features': 1.0, 
+'max_leaf_nodes': 792, 'n_estimators': 85, 'min_samples_split': 4, 'min_samples_leaf': 2}
+====================
+best_value:0.817497057457102
+====================
+
 """
 
 # 学習済みモデルの評価
@@ -106,8 +110,7 @@ predicted_Y_val = optimised_rf.predict(X_val)
 print("model_score: ", optimised_rf.score(X_val, Y_val))
 
 # Borutaを実行
-rf = RandomForestRegressor(n_jobs=int(cpu_count() / 2), max_depth=7)
-feat_selector = BorutaPy(rf, n_estimators='auto', two_step=False, verbose=2, random_state=42)
+feat_selector = BorutaPy(optimised_rf, n_estimators='auto', two_step=False, verbose=2, random_state=42)
 feat_selector.fit(X_train.values, Y_train.values)
 print(X_train.columns[feat_selector.support_])
 
@@ -134,10 +137,6 @@ print('====================')
 print('best_trial:{}'.format(study2.best_trial))
 print('====================')
 
-# トライアルごとの結果を確認
-for i in study2.trials:
-    print('param:{0}, eval_value:{1}'.format(i[5], i[2]))
-print('====================')
 
 # チューニングしたハイパーパラメーターをフィット
 optimised_rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
@@ -152,23 +151,19 @@ optimised_rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
 
 optimised_rf2.fit(X_train_selected, Y_train)
 
-# 選択したFeatureで学習
-rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'], criterion=study.best_params['criterion'],
-                            max_depth=study.best_params['max_depth'],
-                            max_features=study.best_params['max_features'],
-                            max_leaf_nodes=study.best_params['max_leaf_nodes'],
-                            n_estimators=study.best_params['n_estimators'],
-                            min_samples_split=study.best_params['min_samples_split'],
-                            min_samples_leaf=study.best_params['min_samples_leaf'],
-                            n_jobs=int(cpu_count() / 2))
-rf2.fit(X_train_selected.values, Y_train.values)
+"""
+best_param:{'criterion': 'squared_error', 'bootstrap': 'False', 'max_depth': 7, 'max_features': 1.0, 
+'max_leaf_nodes': 79, 'n_estimators': 895, 'min_samples_split': 3, 'min_samples_leaf': 2}
+====================
+best_value:0.817023968127066
+"""
 
-predicted_Y_val_selected = rf2.predict(X_val_selected.values)
-print("model_score_2: ", rf2.score(X_val_selected, Y_val))
+predicted_Y_val_selected = optimised_rf2.predict(X_val_selected.values)
+print("model_score_2: ", optimised_rf2.score(X_val_selected, Y_val))
 
 # shap valueで評価（時間がかかる）
 # Fits the explainer
-explainer = shap.Explainer(rf2.predict, X_val_selected)
+explainer = shap.Explainer(optimised_rf2.predict, X_val_selected)
 # Calculates the SHAP values - It takes some time
 shap_values = explainer(X_val_selected)
 
