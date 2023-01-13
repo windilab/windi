@@ -56,3 +56,13 @@ for i in range(12):
     y = df['val'].values  # 目的変数（住宅価格の中央値）
 
 # https://qiita.com/leisurely/items/4cb3fb64e487dba61b15
+"""入力例
+123 8.333
+12 7.2
+1 10
+23 7.154
+2 5.154
+3 9
+ZERO
+
+"""
