@@ -9,7 +9,7 @@ df = pd.read_csv("data47P_15to39.csv", delimiter=",")
 # analysis_47P(df)
 
 # 全国
-japan_all_incidence_curve()
+# japan_all_incidence_curve()
 
 # ジェンダー指標と結合したdataframeを作る
 df = pd.read_csv("data47P_15to39.csv", delimiter=",")
@@ -25,7 +25,7 @@ print(df.head(10))
 df = df.reset_index()
 print(df.head(10))
 
-df0 = df[["kanji", "location", "year", "incidence_ratio"]]
+df0 = df[["kanji", "location", "year", "incidence_ratio", "ID"]]
 print(df0.head(10))
 df0 = df0.drop_duplicates()
 print(df0.head(10))
@@ -36,5 +36,4 @@ print(df1.head(10))
 
 df2 = pd.merge(df0, df1, left_on=['kanji', 'year'], right_on=['地域', '調査年'])
 print(df2.head(10))
-
 # df2.to_csv("gender_gap_full.csv")
