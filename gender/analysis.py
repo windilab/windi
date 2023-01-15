@@ -1,23 +1,21 @@
 import pandas as pd
 from windi_library import analysis_47P
 from windi_library import japan_all_incidence_curve
+import codecs
 
 # 都道府県別
 # 関数内で、疾患を指定しているため、要確認！
 df = pd.read_csv("data47P_15to39.csv", delimiter=",")
-analysis_47P(df)
+# analysis_47P(df)
 
 # 全国
-# japan_all_incidence_curve()
+japan_all_incidence_curve()
 
 # ジェンダー指標と結合したdataframeを作る
-import pandas as pd
-import codecs
-
 df = pd.read_csv("data47P_15to39.csv", delimiter=",")
 print(df.head(10))
 
-df = df[["kanji", "population_density", "location", "sex" , "cause", "year" , "val", "ID"]]
+df = df[["kanji", "population_density", "location", "sex", "cause", "year", "val", "ID"]]
 print(df.head(10))
 
 df = df[df.cause == "Schizophrenia"]
@@ -36,7 +34,7 @@ with codecs.open("gendergap_missforest.csv", "r", "Shift-JIS", "ignore") as file
     df1 = pd.read_table(file, delimiter=",")
 print(df1.head(10))
 
-df2 = pd.merge(df0, df1, left_on=['kanji', 'year'],right_on=['地域', '調査年'])
+df2 = pd.merge(df0, df1, left_on=['kanji', 'year'], right_on=['地域', '調査年'])
 print(df2.head(10))
 
 # df2.to_csv("gender_gap_full.csv")

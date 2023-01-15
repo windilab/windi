@@ -60,9 +60,8 @@ for i in range(0, 199, 1):
     fig, ax = plt.subplots(sharex='all')
     for key, data in d1.groupby(d1.columns[1]):
         ax.scatter(data[d1.columns[0]], data[d1.columns[3]], c='white', edgecolors='black', alpha=1, lw=0.5)
-        ax.scatter(data[d1.columns[0]], data[d1.columns[2]], c='black', edgecolors='black',  alpha=1, lw=0.5)
+        ax.scatter(data[d1.columns[0]], data[d1.columns[2]], c='black', edgecolors='black', alpha=1, lw=0.5)
         ax.set_title(f'{df.columns[i + 3]}Female-Male ratio (missing value: {df_nan[i + 3] / 2162 * 100:.1f}%)')
     # ここのインデント位置注意（for文が回りきらないまま図として保存されないように！）
     fig.savefig(f'fmratio_miss{df.columns[i + 3]}.png')
     plt.close(fig)
-

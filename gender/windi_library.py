@@ -377,7 +377,7 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         mapping_colorscale(dg1, name, title_age, theme1)
 
         # 発症数のデータがあれば、人口密度との相関関係をプロット
-        if df_mean["value_map"].isnull().any() == False:
+        if not df_mean["value_map"].isnull().any():
             mapping_population_density(dg1, name, title_age, theme1)
 
         # Part 2: 発症の男女比の平均値をマッピング
@@ -401,7 +401,7 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         mapping_colorscale(dg2, name, title_age, theme2)
 
         # 発症数のデータがあれば、人口密度との相関関係をプロット
-        if df_ratio_mean["value_map"].isnull().any() == False:
+        if not df_ratio_mean["value_map"].isnull().any():
             mapping_population_density(dg2, name, title_age, theme2)
 
         # Part 3: 発症の減少率をマッピングする関数
@@ -511,10 +511,28 @@ def mapping_colorscale(dg, name1, title_age1, theme):
     # 県ごとに色分けされて表示
     # cmapでカラーマップを作成
     if theme == "reduction rate of the male-female gap":
-        cmap = plt.get_cmap('Oranges_r')
+        cmap = plt.get_cmap('gray')
 
     # japanmapのカラー
-    # 'Accent', 'Accent_r', 'Blues', 'Blues_r', 'BrBG', 'BrBG_r', 'BuGn', 'BuGn_r', 'BuPu', 'BuPu_r', 'CMRmap', 'CMRmap_r', 'Dark2', 'Dark2_r', 'GnBu', 'GnBu_r', 'Greens', 'Greens_r', 'Greys', 'Greys_r', 'OrRd', 'OrRd_r', 'Oranges', 'Oranges_r', 'PRGn', 'PRGn_r', 'Paired', 'Paired_r', 'Pastel1', 'Pastel1_r', 'Pastel2', 'Pastel2_r', 'PiYG', 'PiYG_r', 'PuBu', 'PuBuGn', 'PuBuGn_r', 'PuBu_r', 'PuOr', 'PuOr_r', 'PuRd', 'PuRd_r', 'Purples', 'Purples_r', 'RdBu', 'RdBu_r', 'RdGy', 'RdGy_r', 'RdPu', 'RdPu_r', 'RdYlBu', 'RdYlBu_r', 'RdYlGn', 'RdYlGn_r', 'Reds', 'Reds_r', 'Set1', 'Set1_r', 'Set2', 'Set2_r', 'Set3', 'Set3_r', 'Spectral', 'Spectral_r', 'Wistia', 'Wistia_r', 'YlGn', 'YlGnBu', 'YlGnBu_r', 'YlGn_r', 'YlOrBr', 'YlOrBr_r', 'YlOrRd', 'YlOrRd_r', 'afmhot', 'afmhot_r', 'autumn', 'autumn_r', 'binary', 'binary_r', 'bone', 'bone_r', 'brg', 'brg_r', 'bwr', 'bwr_r', 'cividis', 'cividis_r', 'cool', 'cool_r', 'coolwarm', 'coolwarm_r', 'copper', 'copper_r', 'crest', 'crest_r', 'cubehelix', 'cubehelix_r', 'flag', 'flag_r', 'flare', 'flare_r', 'gist_earth', 'gist_earth_r', 'gist_gray', 'gist_gray_r', 'gist_heat', 'gist_heat_r', 'gist_ncar', 'gist_ncar_r', 'gist_rainbow', 'gist_rainbow_r', 'gist_stern', 'gist_stern_r', 'gist_yarg', 'gist_yarg_r', 'gnuplot', 'gnuplot2', 'gnuplot2_r', 'gnuplot_r', 'gray', 'gray_r', 'hot', 'hot_r', 'hsv', 'hsv_r', 'icefire', 'icefire_r', 'inferno', 'inferno_r', 'jet', 'jet_r', 'magma', 'magma_r', 'mako', 'mako_r', 'nipy_spectral', 'nipy_spectral_r', 'ocean', 'ocean_r', 'pink', 'pink_r', 'plasma', 'plasma_r', 'prism', 'prism_r', 'rainbow', 'rainbow_r', 'rocket', 'rocket_r', 'seismic', 'seismic_r', 'spring', 'spring_r', 'summer', 'summer_r', 'tab10', 'tab10_r', 'tab20', 'tab20_r', 'tab20b', 'tab20b_r', 'tab20c', 'tab20c_r', 'terrain', 'terrain_r', 'turbo', 'turbo_r', 'twilight', 'twilight_r', 'twilight_shifted', 'twilight_shifted_r', 'viridis', 'viridis_r', 'vlag', 'vlag_r', 'winter', 'winter_r'
+    # 'Accent', 'Accent_r', 'Blues', 'Blues_r', 'BrBG', 'BrBG_r', 'BuGn', 'BuGn_r', 'BuPu', 'BuPu_r', 'CMRmap',
+    # 'CMRmap_r', 'Dark2', 'Dark2_r', 'GnBu', 'GnBu_r', 'Greens', 'Greens_r', 'Greys', 'Greys_r', 'OrRd', 'OrRd_r',
+    # 'Oranges', 'Oranges_r', 'PRGn', 'PRGn_r', 'Paired', 'Paired_r', 'Pastel1', 'Pastel1_r', 'Pastel2', 'Pastel2_r',
+    # 'PiYG', 'PiYG_r', 'PuBu', 'PuBuGn', 'PuBuGn_r', 'PuBu_r', 'PuOr', 'PuOr_r', 'PuRd', 'PuRd_r',
+    # 'Purples', 'Purples_r', 'RdBu', 'RdBu_r', 'RdGy', 'RdGy_r', 'RdPu', 'RdPu_r', 'RdYlBu', 'RdYlBu_r',
+    # 'RdYlGn', 'RdYlGn_r', 'Reds', 'Reds_r', 'Set1', 'Set1_r', 'Set2', 'Set2_r', 'Set3', 'Set3_r',
+    # 'Spectral', 'Spectral_r', 'Wistia', 'Wistia_r', 'YlGn', 'YlGnBu', 'YlGnBu_r', 'YlGn_r', 'YlOrBr', 'YlOrBr_r',
+    # 'YlOrRd', 'YlOrRd_r', 'afmhot', 'afmhot_r', 'autumn', 'autumn_r', 'binary', 'binary_r', 'bone', 'bone_r',
+    # 'brg', 'brg_r', 'bwr', 'bwr_r', 'cividis', 'cividis_r', 'cool', 'cool_r', 'coolwarm', 'coolwarm_r',
+    # 'copper', 'copper_r', 'crest', 'crest_r', 'cubehelix', 'cubehelix_r', 'flag', 'flag_r', 'flare', 'flare_r',
+    # 'gist_earth', 'gist_earth_r', 'gist_gray', 'gist_gray_r', 'gist_heat', 'gist_heat_r', 'gist_ncar', 'gist_ncar_r',
+    # 'gist_rainbow', 'gist_rainbow_r', 'gist_stern', 'gist_stern_r', 'gist_yarg', 'gist_yarg_r', 'gnuplot', 'gnuplot2',
+    # 'gnuplot2_r', 'gnuplot_r', 'gray', 'gray_r', 'hot', 'hot_r', 'hsv', 'hsv_r', 'icefire', 'icefire_r', 'inferno',
+    # 'inferno_r', 'jet', 'jet_r', 'magma', 'magma_r', 'mako', 'mako_r', 'nipy_spectral', 'nipy_spectral_r',
+    # 'ocean', 'ocean_r', 'pink', 'pink_r', 'plasma', 'plasma_r', 'prism', 'prism_r', 'rainbow', 'rainbow_r',
+    # 'rocket', 'rocket_r', 'seismic', 'seismic_r', 'spring', 'spring_r', 'summer', 'summer_r', 'tab10', 'tab10_r',
+    # 'tab20', 'tab20_r', 'tab20b', 'tab20b_r', 'tab20c', 'tab20c_r', 'terrain', 'terrain_r', 'turbo', 'turbo_r',
+    # 'twilight', 'twilight_r', 'twilight_shifted', 'twilight_shifted_r', 'viridis', 'viridis_r', 'vlag', 'vlag_r',
+    # 'winter', 'winter_r'
     else:
         cmap = plt.get_cmap('gray_r')
     # カラーマップと値を対応させるために、normで正規化
@@ -527,7 +545,7 @@ def mapping_colorscale(dg, name1, title_age1, theme):
     # pictureに、df1.人口.apply(fcol)を与えることで、人口ごとの色に塗る
 
     plt.title(name1 + "\n" + title_age1 + "\n" + theme)
-    plt.imshow(picture(dg.value_map.apply(fcol)));
+    plt.imshow(picture(dg.value_map.apply(fcol)))
     plt.show()
 
 
@@ -541,6 +559,7 @@ def mapping_population_density(dg, name1, title_age1, theme):
     s.jointplot(x=mitsudo["population_density"],
                 y=mitsudo["value_map"],
                 # xlim=[0,6500],
+                color="k",
                 data=mitsudo)  # 人口密度（横軸）の上限下限を
 
     # 相関係数を表示
@@ -549,7 +568,7 @@ def mapping_population_density(dg, name1, title_age1, theme):
     plt.show()
 
 
-###  全国データ
+# 全国データ
 def japan_all_incidence():
     dfz = pd.read_csv("IHME-GBD_2019_DATA_JPN_15-39.csv", delimiter=",")
     print(dfz.head())
@@ -594,8 +613,8 @@ def japan_all_incidence():
 
 def japan_all_incidence_curve():
     df, title_age = japan_all_incidence()
+    df = df[(df["cause"] == "Schizophrenia") | (df["cause"] == "Idiopathic epilepsy")]
     d = df[df.year.isin(YEARS)]  # 指定した年の中の変遷
-
     d = d.set_index(["cause", "year"])
     d = d[["sex", "val"]]
     ratio = d[d.sex == "Male"]["val"] / d[d.sex == "Female"]["val"]
@@ -633,9 +652,10 @@ def japan_all_incidence_curve():
             print(results.summary())
             # SLR1 = sm.ols(formula="val ~ year", data=group_sex).fit()
             # print(SLR1.summary())
-
-        s.lmplot(x="year", y="val", hue="sex", markers=['o', 'X'], # line_kws={'color': 'gray'},
+        colorlist = ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0"]
+        s.lmplot(x="year", y="val", hue="sex", markers=['o', 'X'], palette="binary",
                  data=group, legend_out=False)
+
         print(name, "\n Age: ", title_age)  # 年齢を表示
         title = name + title_age  # 年齢を表示
         plt.title(title)
