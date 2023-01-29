@@ -381,12 +381,12 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
             mapping_population_density(dg1, name, title_age, theme1)
 
         # Part 2: 発症の男女比の平均値をマッピング
-        theme2 = "Male Female ratio (mean)"
+        theme2 = "Female-Male ratio (mean)"
 
         d2 = group.set_index(["location", "year", "cause"])
         d2 = d2[["sex", "val"]]
 
-        d2["ratio"] = d2[d2.sex == "Male"]["val"] / d2[d2.sex == "Female"]["val"]
+        d2["ratio"] = d2[d2.sex == "Female"]["val"] / d2[d2.sex == "Male"]["val"]
         data = d2.pivot_table(index="location", columns=["year"], values="ratio")
         d_mean = data.mean(axis='columns')
 
@@ -459,6 +459,9 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         # 発症数のデータがあれば、人口密度との相関関係をプロット
         if not dg4["value_map"].isnull().any():
             mapping_population_density(dg4, name, title_age, theme3)
+
+        if name == "Schizophrenia":
+            return dg4
 
 
 # GBDデータから男女比の減少率のデータフレームを計算する
