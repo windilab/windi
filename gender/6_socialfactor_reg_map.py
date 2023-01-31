@@ -31,6 +31,7 @@ df.columns = colnames
 df = df.loc[:, ['調査年', '地域', '非労働力人口（男）【人】', '非労働力人口（女）【人】']]
 df.columns = ['year', 'kanji', 'male', 'female']  # GBD_japanmap_mergeを使うためにカラム名をkanjiに
 df = df.dropna()
+df=df[df['year']>=1990]
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
 df = GBD_japanmap_merge(df)
 
