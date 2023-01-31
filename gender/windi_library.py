@@ -512,9 +512,15 @@ def mapping_colorscale(dg, name1, title_age1, theme):
     dg = dg[["ID", "value_map"]]
     dg = dg.set_index(["ID"])
     # 県ごとに色分けされて表示
-    # cmapでカラーマップを作成
+    # テーマごとに色分け
     if theme == "reduction rate of the male-female gap":
-        cmap = plt.get_cmap('gray')
+        colors = 'Oranges_r'
+
+    elif theme == "Female-Male ratio (mean)":
+        colors = 'Blues_r'
+
+    elif theme == "incidence (mean)":
+        colors = 'Reds'
 
     # japanmapのカラー
     # 'Accent', 'Accent_r', 'Blues', 'Blues_r', 'BrBG', 'BrBG_r', 'BuGn', 'BuGn_r', 'BuPu', 'BuPu_r', 'CMRmap',
@@ -536,9 +542,9 @@ def mapping_colorscale(dg, name1, title_age1, theme):
     # 'tab20', 'tab20_r', 'tab20b', 'tab20b_r', 'tab20c', 'tab20c_r', 'terrain', 'terrain_r', 'turbo', 'turbo_r',
     # 'twilight', 'twilight_r', 'twilight_shifted', 'twilight_shifted_r', 'viridis', 'viridis_r', 'vlag', 'vlag_r',
     # 'winter', 'winter_r'
-    else:
-        cmap = plt.get_cmap('gray_r')
+
     # カラーマップと値を対応させるために、normで正規化
+    cmap = plt.get_cmap(colors)
     norm = plt.Normalize(vmin=dg.value_map.min(), vmax=dg.value_map.max())
 
     # fcolは、人口の値を色に変換する関数
