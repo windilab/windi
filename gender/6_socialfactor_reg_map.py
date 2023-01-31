@@ -80,7 +80,7 @@ std = df_result["male_female"].std()
 # 標準化
 df_result["value_map"] = (df_result["male_female"] - mean) / std
 print(df_result)
-# df_result.to_csv("social_factor_z.csv")
+df_result.to_csv("social_factor_z.csv")
 
 df_result = df_result[["ID", "value_map"]]
 df_result = df_result.set_index(["ID"])
