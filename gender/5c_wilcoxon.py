@@ -59,9 +59,12 @@ print(df_reg)
 
 # 社会因子のz値のマージする
 df_social = pd.read_csv("social_factor_z.csv", delimiter=",")
+print(df_social)
 df_social = df_social.rename(columns={'value_map': 'social_z'})
 # df_social["social_z"] = -df_social["social_z"]
-df_z_value = pd.merge(df_reg, df_social, left_on=['location'], right_on=['location'])
+df_z_value = pd.merge(df_reg, df_social, left_on=['ID'], right_on=['ID'])
+print(df_z_value)
+df_z_value = df_z_value[["ID", "location", "incidence_z", "social_z"]].copy()
 print(df_z_value)
 
 print("ウィルコクソン符号付き順位検定", wilcoxon(df_z_value))
@@ -82,7 +85,7 @@ print(spr)
 print(spp)
 
 # データフレームから直接相関係数を求めることもできる
-print("ピアソン相関係数:", (df_z_value[["incidence_z", "social_z"]]).corr("pearson"))
-print("スピアマン相関係数", (df_z_value[["incidence_z", "social_z"]]).corr("spearman"))
+print("ピアソン相関係数:\n", (df_z_value[["incidence_z", "social_z"]]).corr("pearson"))
+print("スピアマン相関係数:\n", (df_z_value[["incidence_z", "social_z"]]).corr("spearman"))
 
 print("スピアマン相関係数の95%信頼区間\n", corr_CI(A, B))
