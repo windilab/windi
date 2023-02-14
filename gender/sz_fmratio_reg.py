@@ -19,6 +19,8 @@ df=df[(df['cause']=='Schizophrenia')&(df['metric']=='Rate')]
 df = df.loc[:, ['year', 'location', 'sex', 'val']]
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
 df = GBD_japanmap_merge(df)
+# 年度が1995-2015のデータのみ選択
+df = df [(1995<=df['year'])&(df['year']<=2015)]
 
 # pivot 関数で男女それぞれのvalのコラム　→　FM ratio計算
 df=df.pivot(index=['year', 'ID', 'location', 'kanji'], columns='sex', values='val')
@@ -33,7 +35,6 @@ fig = plt.figure(figsize=(8, 8))
 
 for i in range(1, 48):
     d1 = df[df['ID'] == i]
-    print(d1)
     model_lr = LinearRegression()
     x = d1['year']
     X = np.array(x).reshape(-1, 1)
