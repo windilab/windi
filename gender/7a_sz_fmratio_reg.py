@@ -66,6 +66,7 @@ print(df_result)
 
 df_result = df_result[["ID", "value_map"]]
 df_result = df_result.set_index(["ID"])
+df_result.to_csv("schizo_coef_z.csv")
 cmap = plt.get_cmap('Greens')
 norm = plt.Normalize(vmin=df_result.value_map.min(), vmax=df_result.value_map.max())
 fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
