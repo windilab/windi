@@ -6,6 +6,7 @@ import japanize_matplotlib
 from sklearn.linear_model import LinearRegression
 from windi_library import GBD_japanmap_merge
 
+YEARS = range(1995, 2016)  # 年を指定
 # データ読み込み
 df = pd.read_csv("estat_rawdata.csv", encoding='Shift_JIS')
 
@@ -31,7 +32,7 @@ df.columns = colnames
 df = df.loc[:, ['調査年', '地域', '非労働力人口（男）【人】', '非労働力人口（女）【人】']]
 df.columns = ['year', 'kanji', 'male', 'female']  # GBD_japanmap_mergeを使うためにカラム名をkanjiに
 df = df.dropna()
-df=df[df['year']>=1990]
+df = df[df['year'].isin(YEARS)]
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
 df = GBD_japanmap_merge(df)
 
@@ -66,7 +67,6 @@ for i in range(1, 48):
     plt.tight_layout()
     result.append([d1['ID'].iloc[1], mcoef, fcoef])  # japanmapに渡すため、都道府県IDと並べる
 
-
 # plt.savefig(r"C:\Users\piinb\Documents\DR\WIND\socialfactor_regression.png")
 plt.show()
 
@@ -85,7 +85,7 @@ df_result.to_csv("social_factor_z.csv")
 
 df_result = df_result[["ID", "value_map"]]
 df_result = df_result.set_index(["ID"])
-cmap = plt.get_cmap('Greens')
+cmap = plt.get_cmap('Blues')
 norm = plt.Normalize(vmin=df_result.value_map.min(), vmax=df_result.value_map.max())
 fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
 
