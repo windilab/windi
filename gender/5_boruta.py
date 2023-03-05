@@ -38,7 +38,7 @@ def objective(trial):
 df = pd.read_csv("gender_gap_full.csv", delimiter=",")
 print(df.head(10))
 
-shap.initjs()  # いくつかの可視化で必要
+# shap.initjs()  # いくつかの可視化で必要
 
 df = df.drop(columns=["Unnamed: 0", "kanji", "調査年", "地域"])
 df = df.set_index(["location", "year"])
@@ -71,6 +71,7 @@ print('====================')
 
 
 # チューニングしたハイパーパラメーターをフィット
+"""
 optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
                                      criterion=study.best_params['criterion'],
                                      max_depth=study.best_params['max_depth'],
@@ -80,29 +81,21 @@ optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
                                      min_samples_split=study.best_params['min_samples_split'],
                                      min_samples_leaf=study.best_params['min_samples_leaf'],
                                      n_jobs=int(cpu_count() / 2))
-
-optimised_rf.fit(X_train, Y_train)
-
 """
-# sklearnの機械学習モデル（ランダムフォレスト）のインスタンスを作成する
-# 教師データと教師ラベルを使い、fitメソッドでモデルを学習
-model = RandomForestRegressor(max_depth=None,
-                              max_features=100,
-                              # X_train.shape[1],  # The number of features to consider when looking for the best split
-                              # 'sqrt'も可能
-                              min_samples_split=5,
-                              min_samples_leaf=1,
-                              n_estimators=500,
-                              # n_jobs=-1,  # number of jobs to run in parallel(-1 means using all processors)
-                              random_state=2525)
-model.fit(X_train, Y_train)
-check!!!
-best_param:{'criterion': 'squared_error', 'bootstrap': 'False', 'max_depth': 7, 'max_features': 1.0, 
-'max_leaf_nodes': 792, 'n_estimators': 85, 'min_samples_split': 4, 'min_samples_leaf': 2}
+optimised_rf = RandomForestRegressor(criterion='squared_error',
+                                     bootstrap='False',
+                                     max_depth=7,
+                                     max_features=1.0,
+                                     max_leaf_nodes=792,
+                                     n_estimators=85,
+                                     min_samples_split=4,
+                                     min_samples_leaf=2,
+                                     n_jobs=int(cpu_count() / 2))
+optimised_rf.fit(X_train, Y_train)
+"""
 ====================
 best_value:0.817497057457102
 ====================
-
 """
 
 # 学習済みモデルの評価
@@ -110,7 +103,13 @@ predicted_Y_val = optimised_rf.predict(X_val)
 print("model_score: ", optimised_rf.score(X_val, Y_val))
 
 # Borutaを実行
-feat_selector = BorutaPy(optimised_rf, n_estimators='auto', two_step=False, verbose=2, random_state=42)
+feat_selector = BorutaPy(
+    optimised_rf,
+    n_estimators='auto',
+    perc=110,
+    two_step=False,
+    verbose=2,
+    random_state=42)
 feat_selector.fit(X_train.values, Y_train.values)
 print(X_train.columns[feat_selector.support_])
 
@@ -139,16 +138,7 @@ print('====================')
 
 
 # チューニングしたハイパーパラメーターをフィット
-optimised_rf2 = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
-                                      criterion=study.best_params['criterion'],
-                                      max_depth=study.best_params['max_depth'],
-                                      max_features=study.best_params['max_features'],
-                                      max_leaf_nodes=study.best_params['max_leaf_nodes'],
-                                      n_estimators=study.best_params['n_estimators'],
-                                      min_samples_split=study.best_params['min_samples_split'],
-                                      min_samples_leaf=study.best_params['min_samples_leaf'],
-                                      n_jobs=int(cpu_count() / 2))
-
+optimised_rf2 = optimised_rf
 optimised_rf2.fit(X_train_selected, Y_train)
 
 """

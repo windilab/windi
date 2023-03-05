@@ -44,27 +44,32 @@ def corr_CI(a, b, alpha=0.95):
     rhou = (math.exp(2 * zu) - 1) / (math.exp(2 * zu) + 1)
     return rhol, rhou
 
+
+YEARS = range(1995, 2016)
 """
+# 男女別発症率の回帰係数の「差」
 df = pd.read_csv("data47P_15to39.csv", delimiter=",")
 df = df[df["cause"] == "Schizophrenia"]
+df = df[df.year.isin(YEARS)]
 print(df)
 df2 = GBD_japanmap_merge(df)
 print(df2)
 df_reg = GBD_caliculator_kaiki(df2)
 df_reg = pd.merge(df_reg, df2, on='ID')
 df_reg = df_reg[["ID", "location", "value_map"]]
-df_reg = df_reg.rename(columns={'value_map': 'incidence_z'})
+df_reg = df_reg.rename(columns={'value_map': 'schizo_z'})
 df_reg = df_reg.drop_duplicates()
 print(df_reg)
 """
-
+# 発症率の女性-男性「比」の回帰係数
 df_reg = pd.read_csv("schizo_coef_z.csv", delimiter=",")
 df_reg = df_reg.rename(columns={'value_map': 'schizo_z'})
+
 # 社会因子のz値のマージする
-df_social = pd.read_csv("pc1_coef_z.csv", delimiter=",")
+df_social = pd.read_csv("social_factor_z.csv", delimiter=",")
 print(df_social)
 df_social = df_social.rename(columns={'value_map': 'social_z'})
-df_z_value = pd.merge(df_reg, df_social, left_on=['ID'], right_on=['id'])
+df_z_value = pd.merge(df_reg, df_social, left_on=['ID'], right_on=['ID'])
 print(df_z_value)
 df_z_value = df_z_value[["ID", "schizo_z", "social_z"]].copy()
 print(df_z_value)
