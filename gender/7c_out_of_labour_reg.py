@@ -33,6 +33,7 @@ df = df.loc[:, ['調査年', '地域', '非労働力人口（男）【人】', '
 df.columns = ['year', 'kanji', 'male', 'female']  # GBD_japanmap_mergeを使うためにカラム名をkanjiに
 df = df.dropna()
 df = df[df['year'].isin(YEARS)]
+df['fmratio']=df['female']/df['male']
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
 df = GBD_japanmap_merge(df)
 
@@ -70,6 +71,32 @@ for i in range(1, 48):
 # plt.savefig(r"C:\Users\piinb\Documents\DR\WIND\socialfactor_regression.png")
 plt.show()
 
+# 女男比に関して同様の解析
+result2 = []
+ncol, nrow = 6, 8
+fig = plt.figure(figsize=(8, 8))
+
+for i in range(1, 48):
+    d1 = df[df['ID'] == i]
+    # print(d1)
+    model_lr = LinearRegression()
+    x = d1['year']
+    X = np.array(x).reshape(-1, 1)
+    y = d1['fmratio']
+    Y = np.array(y).reshape(-1, 1)
+    lr = model_lr.fit(X, Y)
+    fmcoef = lr.coef_[0, 0]  # 数値で入れるため、行列を指定
+    ax = plt.subplot2grid((nrow, ncol), (i // ncol, i % ncol))
+    ax = plt.plot(X, Y, 'o', color='blue')
+    ax = plt.plot(X, lr.predict(X), color='black')
+    ax = plt.plot(X, lr.predict(X), color='black')
+    plt.title(d1['location'].iloc[1])
+    plt.tight_layout()
+    result2.append([d1['ID'].iloc[1], fmcoef])  # japanmapに渡すため、都道府県IDと並べる
+
+# plt.savefig(r"C:\Users\piinb\Documents\DR\WIND\socialfactor_regression.png")
+plt.show()
+
 # 男性の減少率 - 女性の減少率
 # 日本地図にマッピング
 df_result = pd.DataFrame(result)
@@ -93,5 +120,29 @@ plt.rcParams['figure.figsize'] = 10, 10
 plt.colorbar(plt.cm.ScalarMappable(norm, cmap))
 plt.title('非労働力人口　男性回帰係数 - 女性回帰係数 のz値')
 plt.imshow(picture(df_result.value_map.apply(fcol)))
+# plt.savefig(r'C:\Users\piinb\Documents\DR\WIND\socialfactor_mapping.png')
+plt.show()
+
+
+# 女男比に関して同様の解析
+df_result2 = pd.DataFrame(result2)
+df_result2.columns = ['ID', 'fm_regression']
+mean = df_result2['fm_regression'].mean()
+std = df_result2['fm_regression'].std()
+# 標準化
+df_result2["value_map"] = (df_result2['fm_regression'] - mean) / std
+print(df_result2)
+df_result.to_csv("social_factor_z_fmratio.csv")
+
+df_result2 = df_result2[["ID", "value_map"]]
+df_result2 = df_result2.set_index(["ID"])
+cmap = plt.get_cmap('Blues_r')
+norm = plt.Normalize(vmin=df_result2.value_map.min(), vmax=df_result2.value_map.max())
+fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
+
+plt.rcParams['figure.figsize'] = 10, 10
+plt.colorbar(plt.cm.ScalarMappable(norm, cmap))
+plt.title('非労働力人口　女男比の回帰係数 のz値')
+plt.imshow(picture(df_result2.value_map.apply(fcol)))
 # plt.savefig(r'C:\Users\piinb\Documents\DR\WIND\socialfactor_mapping.png')
 plt.show()
