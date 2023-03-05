@@ -5,6 +5,7 @@ import japanize_matplotlib
 import sys
 import sklearn.neighbors._base
 
+YEARS = range(1995, 2016)
 # データ読み込み
 d = pd.read_csv("female_over_male.csv", encoding='utf-8')
 
@@ -14,6 +15,10 @@ year_n = []
 for i in range(len(year)):
     year_n.append(int(year[i][:4]))
 d['調査年'] = year_n
+d = d.rename(columns={'調査年': 'year'})
+print(d)
+d = d[d.year.isin(YEARS)]
+print(d)
 
 # 欠損値をすべてNaNに揃える
 # df: raw dataframe
@@ -25,6 +30,8 @@ print(len(df))
 
 # NaNの個数を数え（→ プロットの欠損値%に使用）、降順にprint
 # すべてNaNの列はない
+df = df.dropna(how='all', axis=1)
+print(df)
 df_nan = df.isnull().sum()
 print(df_nan)
 print(df_nan.sort_values(ascending=False))
