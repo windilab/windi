@@ -11,7 +11,7 @@ import umap
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm  # 回帰分析のライブラリ
 
-YEARS = range(1990, 2020)  # 年を指定
+YEARS = range(1995, 2016)  # 年を指定
 
 
 # 47都道府県別のデータフレーム、インプット
