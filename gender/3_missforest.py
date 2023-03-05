@@ -21,12 +21,16 @@ df = d.iloc[:, 1:]
 df = df.replace(np.inf, np.nan)
 df = df.drop('地', axis=1)
 df.to_csv('genderraw.csv', encoding='Shift-JIS')
+print(len(df))
 
 # NaNの個数を数え（→ プロットの欠損値%に使用）、降順にprint
 # すべてNaNの列はない
 df_nan = df.isnull().sum()
 print(df_nan)
 print(df_nan.sort_values(ascending=False))
+df_nan_percent = df_nan / len(df)
+print(df_nan_percent)
+df_nan_percent.to_csv("nan_percent.csv", encoding='Shift-JIS')
 
 # sklearnのバージョンによって、.baseが_.base となったことによるエラーに対処
 sys.modules['sklearn.neighbors.base'] = sklearn.neighbors._base
