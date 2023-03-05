@@ -15,7 +15,7 @@ from multiprocessing import cpu_count
 def objective(trial):
     criterion = trial.suggest_categorical('criterion', ['squared_error', 'absolute_error'])
     bootstrap = trial.suggest_categorical('bootstrap', ['True', 'False'])
-    max_depth = trial.suggest_int('max_depth', 4, 7)
+    max_depth = trial.suggest_int('max_depth', 2, 2)
     max_features = trial.suggest_categorical('max_features', [1.0, 'sqrt', 'log2'])
     max_leaf_nodes = trial.suggest_int('max_leaf_nodes', 2, 1000)
     n_estimators = trial.suggest_int('n_estimators', 10, 1000)
@@ -40,7 +40,7 @@ print(df.head(10))
 
 # shap.initjs()  # いくつかの可視化で必要
 
-df = df.drop(columns=["Unnamed: 0", "kanji", "調査年", "地域"])
+df = df.drop(columns=["Unnamed: 0", "kanji", "調査年", "地域", "ID"])
 df = df.set_index(["location", "year"])
 print(df.head(15))
 
@@ -52,7 +52,8 @@ print(y)
 
 Y_train, Y_val, X_train, X_val = train_test_split(y, X, test_size=.2)
 
-# optunaで学習
+
+# optunaで最適化
 study = optuna.create_study(direction='maximize')
 study.optimize(objective, n_trials=100)
 
@@ -71,7 +72,7 @@ print('====================')
 
 
 # チューニングしたハイパーパラメーターをフィット
-"""
+
 optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
                                      criterion=study.best_params['criterion'],
                                      max_depth=study.best_params['max_depth'],
@@ -84,18 +85,21 @@ optimised_rf = RandomForestRegressor(bootstrap=study.best_params['bootstrap'],
 """
 optimised_rf = RandomForestRegressor(criterion='squared_error',
                                      bootstrap='False',
-                                     max_depth=7,
+                                     max_depth=2,
                                      max_features=1.0,
-                                     max_leaf_nodes=792,
-                                     n_estimators=85,
-                                     min_samples_split=4,
-                                     min_samples_leaf=2,
+                                     max_leaf_nodes=299,
+                                     n_estimators=590,
+                                     min_samples_split=2,
+                                     min_samples_leaf=5,
                                      n_jobs=int(cpu_count() / 2))
-optimised_rf.fit(X_train, Y_train)
 """
-====================
-best_value:0.817497057457102
-====================
+optimised_rf.fit(X_train, Y_train)
+
+"""best_param:{'criterion': 'squared_error', 'bootstrap': 'False', 'max_depth': 2, 'max_features': 1.0, 
+'max_leaf_nodes': 299, 'n_estimators': 590, 'min_samples_split': 2, 'min_samples_leaf': 5} 
+==================== 
+best_value:0.6691932863535266 
+==================== 
 """
 
 # 学習済みモデルの評価
@@ -106,7 +110,7 @@ print("model_score: ", optimised_rf.score(X_val, Y_val))
 feat_selector = BorutaPy(
     optimised_rf,
     n_estimators='auto',
-    perc=110,
+    perc=100,
     two_step=False,
     verbose=2,
     random_state=42)
@@ -118,6 +122,7 @@ X_train_selected = X_train.iloc[:, feat_selector.support_]
 X_val_selected = X_val.iloc[:, feat_selector.support_]
 print(X_val_selected.head())
 
+"""
 # optunaで学習
 study2 = optuna.create_study(direction='maximize')
 study2.optimize(objective, n_trials=100)
@@ -136,17 +141,11 @@ print('====================')
 print('best_trial:{}'.format(study2.best_trial))
 print('====================')
 
+"""
 
 # チューニングしたハイパーパラメーターをフィット
 optimised_rf2 = optimised_rf
 optimised_rf2.fit(X_train_selected, Y_train)
-
-"""
-best_param:{'criterion': 'squared_error', 'bootstrap': 'False', 'max_depth': 7, 'max_features': 1.0, 
-'max_leaf_nodes': 79, 'n_estimators': 895, 'min_samples_split': 3, 'min_samples_leaf': 2}
-====================
-best_value:0.817023968127066
-"""
 
 predicted_Y_val_selected = optimised_rf2.predict(X_val_selected.values)
 print("model_score_2: ", optimised_rf2.score(X_val_selected, Y_val))
