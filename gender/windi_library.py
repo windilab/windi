@@ -11,7 +11,7 @@ import umap
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm  # 回帰分析のライブラリ
 
-YEARS = range(1995, 2016)  # 年を指定
+YEARS = range(1995, 2020)  # 年を指定
 
 
 # 47都道府県別のデータフレーム、インプット
@@ -211,50 +211,8 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
             mapping_population_density(dg2, name, title_age, theme2)
 
         # Part 3: 発症の減少率をマッピングする関数
-        # Part 3-1: 減少率：2015年/1990年の比
-
         theme3 = "reduction rate of the male-female gap"
-        """
-        d3 = group.set_index(["location", "year"])
-        d3 = d3[["sex", "val"]]
 
-        ratio = d3[d3.sex == "Male"]["val"] / d3[d3.sex == "Female"]["val"]  # 男女比
-        print("ratio:", ratio.head(20))
-
-        # ratioの描画
-        s.lineplot(data=ratio.unstack(level=0))
-        plt.legend(bbox_to_anchor=(2, 1))  # 凡例は右上に
-        print("Male Female ratio, age: ", title_age)
-        plt.show()
-
-        # 変化率を計算
-        data3 = pd.DataFrame(ratio)
-        data3 = data3.reset_index()
-
-        data3 = data3.set_index(["location"])  # yearをcolumnに戻す
-        print("data3: \n", data3)
-
-        change = pd.DataFrame(data3[data3.year == 2015]["val"] / data3[data3.year == 1990]["val"])
-
-        # ※まずは1990年と2015年の比をとってマッピングする
-        change = change.reset_index()
-
-        change = change.rename(columns={"val": "value_map"})
-
-        print("change: \n", change)
-
-        dg3 = pd.merge(group, change)
-        print("dg3: \n", dg3)
-
-        # 都道府県マップに発症率平均値を描画
-        mapping_colorscale(dg3, name, title_age, theme3)
-
-        # 発症数のデータがあれば、人口密度との相関関係をプロット
-        if change["value_map"].isnull().any() == False:
-            mapping_population_density(dg3, name, title_age, theme3)
-        """
-
-        # Part 3-2: 経時変化の回帰係数（直線の傾き）
         dg4 = GBD_caliculator_kaiki(group)
         print("回帰係数の差のz score: \n", dg4)
 
@@ -268,7 +226,6 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
 
         if name == "Schizophrenia":
             return dg4
-
 
 # GBDデータから男女比の減少率のデータフレームを計算する
 def GBD_caliculator_kaiki(df2):
