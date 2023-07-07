@@ -5,7 +5,7 @@ import japanize_matplotlib
 import sys
 import sklearn.neighbors._base
 
-YEARS = range(1995, 2016)
+YEARS = range(1990, 2020)
 # データ読み込み
 d = pd.read_csv("female_over_male.csv", encoding='utf-8')
 
