@@ -1,4 +1,3 @@
-import pandas as pd
 import codecs
 from japanmap import picture
 from japanmap import pref_names
@@ -165,9 +164,10 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         print("cause: ", name, "\n", group)
 
         # Part 1: 発症の平均値をマッピングする関数
-        theme1 = "incidence (mean)"
+        theme1 = "incidence (mean, male)"
         data1 = group[["location", "year", "val", "sex"]]
         print("data1: \n", data1)
+        data1 = data1[data1.sex == "Male"]  # 男性か女性に絞る場合！
 
         data1 = data1.pivot_table(index="location", columns=["year", "sex"], values="val")
         d_mean = data1.mean(axis='columns')
@@ -282,7 +282,7 @@ def mapping_colorscale(dg, name1, title_age1, theme):
     elif theme == "Female-Male ratio (mean)":
         colors = 'Blues_r'
 
-    elif theme == "incidence (mean)":
+    else:  # if theme == "incidence (mean)":
         colors = 'Reds'
 
     # japanmapのカラー
