@@ -6,7 +6,7 @@ import japanize_matplotlib
 from sklearn.linear_model import LinearRegression
 from windi_library import GBD_japanmap_merge
 
-YEARS = range(1995, 2016)  # 年を指定
+YEARS = range(1990, 2020)  # 年を指定
 # データ読み込み
 df = pd.read_csv("estat_rawdata.csv", encoding='Shift_JIS')
 
@@ -112,7 +112,7 @@ df_result.to_csv("social_factor_z.csv")
 
 df_result = df_result[["ID", "value_map"]]
 df_result = df_result.set_index(["ID"])
-cmap = plt.get_cmap('Blues')
+cmap = plt.get_cmap('Greens')
 norm = plt.Normalize(vmin=df_result.value_map.min(), vmax=df_result.value_map.max())
 fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
 
