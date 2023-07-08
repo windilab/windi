@@ -49,4 +49,8 @@ sns.relplot(x="year", y="population_density",
             data=df, kind="line",
             hue="kanji", style="kanji",
             markers=True, dashes=False)
-plt.show()
+# plt.show()
+
+change_proportion = df[df.year == 2010]["population_density"] / df[df.year == 1990]["population_density"]
+print(change_proportion)
+print(change_proportion.describe())
