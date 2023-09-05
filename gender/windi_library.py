@@ -1,4 +1,6 @@
 import codecs
+import math
+
 from japanmap import picture
 from japanmap import pref_names
 from japanmap import pref_code
@@ -7,6 +9,7 @@ import pandas as pd
 import seaborn as s
 import matplotlib.pyplot as plt
 import umap
+from scipy import stats
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm  # 回帰分析のライブラリ
 
@@ -164,10 +167,10 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         print("cause: ", name, "\n", group)
 
         # Part 1: 発症の平均値をマッピングする関数
-        theme1 = "incidence (mean, male)"
+        theme1 = "incidence (mean, female)"
         data1 = group[["location", "year", "val", "sex"]]
         print("data1: \n", data1)
-        data1 = data1[data1.sex == "Male"]  # 男性か女性に絞る場合！
+        data1 = data1[data1.sex == "Female"]  # 男性か女性に絞る場合！
 
         data1 = data1.pivot_table(index="location", columns=["year", "sex"], values="val")
         d_mean = data1.mean(axis='columns')
@@ -186,6 +189,7 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         if not df_mean["value_map"].isnull().any():
             mapping_population_density(dg1, name, title_age, theme1)
 
+        """
         # Part 2: 発症の男女比の平均値をマッピング
         theme2 = "Female-Male ratio (mean)"
 
@@ -209,6 +213,7 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         # 発症数のデータがあれば、人口密度との相関関係をプロット
         if not df_ratio_mean["value_map"].isnull().any():
             mapping_population_density(dg2, name, title_age, theme2)
+        """
 
         # Part 3: 発症の減少率をマッピングする関数
         theme3 = "reduction rate of the male-female gap"
@@ -323,10 +328,18 @@ def mapping_colorscale(dg, name1, title_age1, theme):
 
 def mapping_population_density(dg, name1, title_age1, theme):
     mitsudo = dg[["value_map", "population_density"]]
+    mitsudo = mitsudo.drop_duplicates()
     mitsudo["population_density"] = mitsudo["population_density"].apply(np.log)  # 人口密度を対数変換
     print("人口密度と比較\n", mitsudo)
 
     print("人口密度との相関係数: ", mitsudo.corr().iloc[1, 0])
+    A_list = mitsudo["value_map"]
+    A = list(A_list)
+    # print(A)
+    B_list = mitsudo["population_density"]
+    B = list(B_list)
+    # print(B)
+    print("ピアソン相関係数の95%信頼区間\n", corr_CI(A, B))
 
     s.jointplot(x=mitsudo["population_density"],
                 y=mitsudo["value_map"],
@@ -339,6 +352,18 @@ def mapping_population_density(dg, name1, title_age1, theme):
     plt.title(annotation1, x=2, y=1.5)  # 相関係数を右上に表示
     plt.show()
 
+def corr_CI(a, b, alpha=0.95):  # 相関係数の信頼区間
+    r = stats.pearsonr(a, b)[0]
+    n = len(a)
+    if n <= 3:
+        AssertionError("Not enough amount data")
+    z = 0.5 * np.log((1 + r) / (1 - r))
+    za = stats.norm.ppf(0.5 + 0.5 * alpha)
+    zl = z - za * math.sqrt(1 / (n - 3))
+    zu = z + za * math.sqrt(1 / (n - 3))
+    rhol = (math.exp(2 * zl) - 1) / (math.exp(2 * zl) + 1)
+    rhou = (math.exp(2 * zu) - 1) / (math.exp(2 * zu) + 1)
+    return rhol, rhou
 
 # 全国データ
 def japan_all_incidence():
