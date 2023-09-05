@@ -14,7 +14,7 @@ from windi_library import GBD_japanmap_merge
 
 df = pd.read_csv("IHME-GBD_2019_DATA_47P_15-39.csv", delimiter=",")
 # cause列==Schizophrenia かつ metric列==Rateの行を抜き出し
-df = df[(df['cause'] == 'Idiopathic epilepsy') & (df['metric'] == 'Rate')]
+df = df[(df['cause'] == 'Schizophrenia') & (df['metric'] == 'Rate')]  # 'Idiopathic epilepsy'
 # 必要な列のみ残す
 df = df.loc[:, ['year', 'location', 'sex', 'val']]
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
@@ -60,7 +60,7 @@ for i in range(1, 48):
 
 # plt.savefig(r"C:\Users\piinb\Documents\DR\WIND\socialfactor_regression.png")
 plt.show()
-
+"""
 # for文で男女、都道府県ごとに線形回帰
 result = []
 ncol, nrow = 6, 8
@@ -110,3 +110,4 @@ plt.title('Schizophrenia Female-Male ratio')
 plt.imshow(picture(df_result.value_map.apply(fcol)))
 # plt.savefig('schizophrenia_fmratio_mapping.png')
 plt.show()
+"""

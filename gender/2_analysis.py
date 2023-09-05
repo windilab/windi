@@ -13,6 +13,7 @@ print("発症率の回帰係数の差のz値", df_reg[["kanji", "value_map"]])
 # 全国
 # japan_all_incidence_curve()
 
+"""
 # ジェンダー指標と結合したdataframeを作る
 df = pd.read_csv("data47P_15to39.csv", delimiter=",")
 print(df.head(10))
@@ -39,3 +40,4 @@ print(df1.head(10))
 df2 = pd.merge(df0, df1, left_on=['kanji', 'year'], right_on=['地域', '調査年'])
 print(df2.head(10))
 # df2.to_csv("gender_gap_full.csv")
+"""

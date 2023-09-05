@@ -13,7 +13,7 @@ from scipy import stats
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm  # 回帰分析のライブラリ
 
-YEARS = range(1995, 2020)  # 年を指定
+YEARS = range(1990, 2020)  # 年を指定
 
 
 # 47都道府県別のデータフレーム、インプット
@@ -169,25 +169,45 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         # Part 1: 発症の平均値をマッピングする関数
         theme1 = "incidence (mean, female)"
         data1 = group[["location", "year", "val", "sex"]]
-        print("data1: \n", data1)
-        data1 = data1[data1.sex == "Female"]  # 男性か女性に絞る場合！
+        # print("data1: \n", data1)
+        dataf = data1[data1.sex == "Female"]  # 男性か女性に絞る場合！
 
-        data1 = data1.pivot_table(index="location", columns=["year", "sex"], values="val")
-        d_mean = data1.mean(axis='columns')
-        df_mean = pd.DataFrame(d_mean)  # 都道府県別の平均
-        df_mean = df_mean.reset_index()
-        df_mean = df_mean.rename(columns={0: "value_map"})
-        print("df_mean: \n", df_mean)
+        dataf = dataf.pivot_table(index="location", columns=["year", "sex"], values="val")
+        d_mean_f = dataf.mean(axis='columns')
+        df_mean_f = pd.DataFrame(d_mean_f)  # 都道府県別の平均
+        df_mean_f = df_mean_f.reset_index()
+        df_mean_f = df_mean_f.rename(columns={0: "value_map"})
+        # print("df_mean: \n", df_mean_f)
 
-        dg1 = pd.merge(group, df_mean)
-        print("dg1: \n", dg1)
+        dg1 = pd.merge(group, df_mean_f)
+        print("female, spatial distribution: \n", dg1)
 
         # 都道府県マップに発症率平均値を描画
         mapping_colorscale(dg1, name, title_age, theme1)
 
         # 発症数のデータがあれば、人口密度との相関関係をプロット
-        if not df_mean["value_map"].isnull().any():
+        if not df_mean_f["value_map"].isnull().any():
             mapping_population_density(dg1, name, title_age, theme1)
+
+        theme2 = "incidence (mean, male)"
+        datam = data1[data1.sex == "Male"]  # 男性か女性に絞る場合！
+
+        datam = datam.pivot_table(index="location", columns=["year", "sex"], values="val")
+        d_mean_m = datam.mean(axis='columns')
+        df_mean_m = pd.DataFrame(d_mean_m)  # 都道府県別の平均
+        df_mean_m = df_mean_m.reset_index()
+        df_mean_m = df_mean_m.rename(columns={0: "value_map"})
+        # print("df_mean: \n", df_mean_m)
+
+        dg2 = pd.merge(group, df_mean_m)
+        print("male, spatial distribution: \n", dg2)
+
+        # 都道府県マップに発症率平均値を描画
+        mapping_colorscale(dg2, name, title_age, theme2)
+
+        # 発症数のデータがあれば、人口密度との相関関係をプロット
+        if not df_mean_m["value_map"].isnull().any():
+            mapping_population_density(dg2, name, title_age, theme2)
 
         """
         # Part 2: 発症の男女比の平均値をマッピング
@@ -219,7 +239,7 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         theme3 = "reduction rate of the male-female gap"
 
         dg4 = GBD_caliculator_kaiki(group)
-        print("回帰係数の差のz score: \n", dg4)
+        # print("回帰係数の差のz score: \n", dg4)
 
         dg4 = pd.merge(group, dg4)
 
@@ -265,7 +285,7 @@ def GBD_caliculator_kaiki(df2):
     df_f_coef = pd.DataFrame(f_coef, columns=['ID', 'f_coef'])
     df_coef = pd.merge(df_m_coef, df_f_coef)
 
-    print(df_coef)
+    # print(df_coef)
 
     df_coef["male_female"] = df_coef["m_coef"] - df_coef["f_coef"]  # 男性の減少率-女性の減少率
     mean = df_coef["male_female"].mean()
@@ -330,7 +350,7 @@ def mapping_population_density(dg, name1, title_age1, theme):
     mitsudo = dg[["value_map", "population_density"]]
     mitsudo = mitsudo.drop_duplicates()
     mitsudo["population_density"] = mitsudo["population_density"].apply(np.log)  # 人口密度を対数変換
-    print("人口密度と比較\n", mitsudo)
+    # print("人口密度と比較\n", mitsudo)
 
     print("人口密度との相関係数: ", mitsudo.corr().iloc[1, 0])
     A_list = mitsudo["value_map"]
