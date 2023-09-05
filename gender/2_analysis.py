@@ -5,13 +5,14 @@ import codecs
 
 # 都道府県別
 # 関数内で、疾患を指定しているため、要確認！
+
 df = pd.read_csv("data47P_15to39.csv", delimiter=",")
 df_reg = analysis_47P(df)
 df_reg = df_reg.drop_duplicates()
 print("発症率の回帰係数の差のz値", df_reg[["kanji", "value_map"]])
 
 # 全国
-# japan_all_incidence_curve()
+japan_all_incidence_curve()
 
 """
 # ジェンダー指標と結合したdataframeを作る

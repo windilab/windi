@@ -252,6 +252,7 @@ def analysis_47P(df):  # dfには上で作成したデータフレームを代�
         if name == "Schizophrenia":
             return dg4
 
+
 # GBDデータから男女比の減少率のデータフレームを計算する
 def GBD_caliculator_kaiki(df2):
     df2 = df2[["ID", "year", "val", "sex"]]
@@ -372,6 +373,7 @@ def mapping_population_density(dg, name1, title_age1, theme):
     plt.title(annotation1, x=2, y=1.5)  # 相関係数を右上に表示
     plt.show()
 
+
 def corr_CI(a, b, alpha=0.95):  # 相関係数の信頼区間
     r = stats.pearsonr(a, b)[0]
     n = len(a)
@@ -384,6 +386,7 @@ def corr_CI(a, b, alpha=0.95):  # 相関係数の信頼区間
     rhol = (math.exp(2 * zl) - 1) / (math.exp(2 * zl) + 1)
     rhou = (math.exp(2 * zu) - 1) / (math.exp(2 * zu) + 1)
     return rhol, rhou
+
 
 # 全国データ
 def japan_all_incidence():
@@ -469,11 +472,14 @@ def japan_all_incidence_curve():
             print(results.summary())
             # SLR1 = sm.ols(formula="val ~ year", data=group_sex).fit()
             # print(SLR1.summary())
-        colorlist = ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0"]
-        s.lmplot(x="year", y="val", hue="sex", markers=['o', 'X'], palette="binary",
-                 data=group, legend_out=False)
-
-        print(name, "\n Age: ", title_age)  # 年齢を表示
+        # colorlist = ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0"]
+        s.set(style="ticks", font_scale=2)
+        p = s.lmplot(x="year", y="val", hue="sex", markers=['o', 'X'], palette="binary",
+                     data=group, legend_out=True)
+        p.set_xlabels("Year")  # , fontsize=20)
+        p.set_ylabels("Incidence rates (/100,000)")  # , fontsize=20)
         title = name + title_age  # 年齢を表示
-        plt.title(title)
+        p.fig.suptitle(name)  # , y=1.0)
+        print(name, "\n Age: ", title_age)  # 年齢を表示
+
         plt.show()

@@ -71,6 +71,7 @@ for i in range(1, 48):
 # plt.savefig(r"C:\Users\piinb\Documents\DR\WIND\socialfactor_regression.png")
 plt.show()
 
+"""
 # 女男比に関して同様の解析
 result2 = []
 ncol, nrow = 6, 8
@@ -94,8 +95,8 @@ for i in range(1, 48):
     plt.tight_layout()
     result2.append([d1['ID'].iloc[1], fmcoef])  # japanmapに渡すため、都道府県IDと並べる
 
-# plt.savefig(r"C:\Users\piinb\Documents\DR\WIND\socialfactor_regression.png")
 plt.show()
+"""
 
 # 男性の減少率 - 女性の減少率
 # 日本地図にマッピング
@@ -108,7 +109,7 @@ std = df_result["male_female"].std()
 # 標準化
 df_result["value_map"] = (df_result["male_female"] - mean) / std
 print(df_result)
-df_result.to_csv("social_factor_z.csv")
+# df_result.to_csv("social_factor_z.csv")
 
 df_result = df_result[["ID", "value_map"]]
 df_result = df_result.set_index(["ID"])
@@ -116,14 +117,13 @@ cmap = plt.get_cmap('Greens')
 norm = plt.Normalize(vmin=df_result.value_map.min(), vmax=df_result.value_map.max())
 fcol = lambda x: '#' + bytes(cmap(norm(x), bytes=True)[:3]).hex()
 
-plt.rcParams['figure.figsize'] = 10, 10
+# plt.rcParams['figure.figsize'] = 10, 10
 plt.colorbar(plt.cm.ScalarMappable(norm, cmap))
-plt.title('非労働力人口　男性回帰係数 - 女性回帰係数 のz値')
+plt.title('Difference between females and males')  # 非労働力人口　男性回帰係数 - 女性回帰係数 のz値
 plt.imshow(picture(df_result.value_map.apply(fcol)))
-# plt.savefig(r'C:\Users\piinb\Documents\DR\WIND\socialfactor_mapping.png')
 plt.show()
 
-
+"""
 # 女男比に関して同様の解析
 df_result2 = pd.DataFrame(result2)
 df_result2.columns = ['ID', 'fm_regression']
@@ -132,7 +132,7 @@ std = df_result2['fm_regression'].std()
 # 標準化
 df_result2["value_map"] = (df_result2['fm_regression'] - mean) / std
 print(df_result2)
-df_result.to_csv("social_factor_z_fmratio.csv")
+# df_result.to_csv("social_factor_z_fmratio.csv")
 
 df_result2 = df_result2[["ID", "value_map"]]
 df_result2 = df_result2.set_index(["ID"])
@@ -144,5 +144,5 @@ plt.rcParams['figure.figsize'] = 10, 10
 plt.colorbar(plt.cm.ScalarMappable(norm, cmap))
 plt.title('非労働力人口　女男比の回帰係数 のz値')
 plt.imshow(picture(df_result2.value_map.apply(fcol)))
-# plt.savefig(r'C:\Users\piinb\Documents\DR\WIND\socialfactor_mapping.png')
 plt.show()
+"""
