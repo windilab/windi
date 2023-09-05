@@ -45,11 +45,14 @@ print("Spearman's correlation coefficient:", corr)
 print("p-value:", p_value)
 print("95% Confidence Interval:", (lower_bound, upper_bound))
 
-sns.relplot(x="year", y="population_density",
-            data=df, kind="line",
-            hue="kanji", style="kanji",
-            markers=True, dashes=False)
-# plt.show()
+sns.set(style="ticks", font_scale=2)
+p = sns.relplot(x="year", y="population_density",
+                data=df, kind="line",
+                hue="kanji", style="kanji",
+                markers=True, dashes=False, legend=False)
+p.set_xlabels("Year")  # , fontsize=20)
+p.set_ylabels("Population density")
+plt.show()
 
 change_proportion = df[df.year == 2010]["population_density"] / df[df.year == 1990]["population_density"]
 print(change_proportion)
