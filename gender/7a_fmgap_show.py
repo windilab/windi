@@ -8,13 +8,15 @@ import pandas as pd
 import seaborn as s
 import matplotlib.pyplot as plt
 import umap
+from matplotlib import ticker
+from matplotlib.ticker import MaxNLocator
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm  # 回帰分析のライブラリ
 from windi_library import GBD_japanmap_merge
 
 df = pd.read_csv("IHME-GBD_2019_DATA_47P_15-39.csv", delimiter=",")
 # cause列==Schizophrenia かつ metric列==Rateの行を抜き出し
-df = df[(df['cause'] == 'Schizophrenia') & (df['metric'] == 'Rate')]  # 'Idiopathic epilepsy'
+df = df[(df['cause'] == 'Idiopathic epilepsy') & (df['metric'] == 'Rate')]  # 'Idiopathic epilepsy'
 # 必要な列のみ残す
 df = df.loc[:, ['year', 'location', 'sex', 'val']]
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
@@ -33,6 +35,8 @@ print(df)
 result = []
 ncol, nrow = 6, 8
 fig = plt.figure(figsize=(8, 8))
+plt.rcParams["font.size"] = 10
+plt.rc('font', family='Times New Roman')
 
 for i in range(1, 48):
     d1 = df[df['ID'] == i]
@@ -48,6 +52,9 @@ for i in range(1, 48):
     mcoef = mlr.coef_[0, 0]  # 数値で入れるため、行列を指定
     ax = plt.subplot2grid((nrow, ncol), (i // ncol, i % ncol))
     ax = plt.plot(X, Y, 'o', color='blue')
+    plt.gca().get_yaxis().set_major_locator(ticker.MaxNLocator(integer=True))
+    plt.yticks(np.arange(20, 50, step=10))
+    plt.ylim(22, 40)
     ax = plt.plot(X, mlr.predict(X), color='black')
     model_lr = LinearRegression()
     flr = model_lr.fit(X, Z)

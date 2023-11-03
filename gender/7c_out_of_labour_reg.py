@@ -43,6 +43,8 @@ print(df)
 result = []
 ncol, nrow = 6, 8
 fig = plt.figure(figsize=(8, 8))
+plt.rcParams["font.size"] = 10
+plt.rc('font', family='Times New Roman')
 
 for i in range(1, 48):
     d1 = df[df['ID'] == i]
@@ -50,9 +52,9 @@ for i in range(1, 48):
     model_lr = LinearRegression()
     x = d1['year']
     X = np.array(x).reshape(-1, 1)
-    y = d1['male']
+    y = d1['male'] / 1000
     Y = np.array(y).reshape(-1, 1)
-    z = d1['female']
+    z = d1['female'] / 1000
     Z = np.array(z).reshape(-1, 1)
     mlr = model_lr.fit(X, Y)
     mcoef = mlr.coef_[0, 0]  # 数値で入れるため、行列を指定
@@ -64,6 +66,7 @@ for i in range(1, 48):
     fcoef = flr.coef_[0, 0]  # 数値で入れるため、行列を指定
     ax = plt.plot(X, Z, 'o', color='red')
     ax = plt.plot(X, flr.predict(X), color='black')
+    plt.xticks(np.arange(2000, 2020, step=10))
     plt.title(d1['location'].iloc[1])
     plt.tight_layout()
     result.append([d1['ID'].iloc[1], mcoef, fcoef])  # japanmapに渡すため、都道府県IDと並べる
