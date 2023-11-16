@@ -59,13 +59,13 @@ for i in range(1, 48):
     mlr = model_lr.fit(X, Y)
     mcoef = mlr.coef_[0, 0]  # 数値で入れるため、行列を指定
     ax = plt.subplot2grid((nrow, ncol), (i // ncol, i % ncol))
-    ax = plt.plot(X, Y, 'o', color='blue')
     ax = plt.plot(X, mlr.predict(X), color='black')
+    ax = plt.plot(X, Y, 'o', color='blue', markersize=1)
     model_lr = LinearRegression()
     flr = model_lr.fit(X, Z)
     fcoef = flr.coef_[0, 0]  # 数値で入れるため、行列を指定
-    ax = plt.plot(X, Z, 'o', color='red')
     ax = plt.plot(X, flr.predict(X), color='black')
+    ax = plt.plot(X, Z, 'o', color='red', markersize=1)
     plt.xticks(np.arange(2000, 2020, step=10))
     plt.title(d1['location'].iloc[1])
     plt.tight_layout()

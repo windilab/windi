@@ -16,7 +16,7 @@ from windi_library import GBD_japanmap_merge
 
 df = pd.read_csv("IHME-GBD_2019_DATA_47P_15-39.csv", delimiter=",")
 # cause列==Schizophrenia かつ metric列==Rateの行を抜き出し
-df = df[(df['cause'] == 'Idiopathic epilepsy') & (df['metric'] == 'Rate')]  # 'Idiopathic epilepsy'
+df = df[(df['cause'] == 'Schizophrenia') & (df['metric'] == 'Rate')]  # 'Idiopathic epilepsy'
 # 必要な列のみ残す
 df = df.loc[:, ['year', 'location', 'sex', 'val']]
 # 都道府県のID、ローマ字表記、漢字表記を並べたデータフレームに
@@ -51,15 +51,15 @@ for i in range(1, 48):
     mlr = model_lr.fit(X, Y)
     mcoef = mlr.coef_[0, 0]  # 数値で入れるため、行列を指定
     ax = plt.subplot2grid((nrow, ncol), (i // ncol, i % ncol))
-    ax = plt.plot(X, Y, 'o', color='blue')
+    ax = plt.plot(X, Y, 'o', color='blue', markersize=0.5)
     plt.gca().get_yaxis().set_major_locator(ticker.MaxNLocator(integer=True))
-    plt.yticks(np.arange(20, 50, step=10))
-    plt.ylim(22, 40)
+    plt.yticks(np.arange(35, 45, step=5))
+    plt.ylim(30, 45)
     ax = plt.plot(X, mlr.predict(X), color='black')
     model_lr = LinearRegression()
     flr = model_lr.fit(X, Z)
     fcoef = flr.coef_[0, 0]  # 数値で入れるため、行列を指定
-    ax = plt.plot(X, Z, 'o', color='red')
+    ax = plt.plot(X, Z, 'o', color='red', markersize=0.5)
     ax = plt.plot(X, flr.predict(X), color='black')
     plt.title(d1['location'].iloc[1])
     plt.tight_layout()
