@@ -14,9 +14,9 @@ from multiprocessing import cpu_count
 # optunaの目的関数を設定する
 def objective(trial):
     criterion = trial.suggest_categorical('criterion', ['squared_error', 'absolute_error'])
-    bootstrap = trial.suggest_categorical('bootstrap', ['True', 'False'])
-    max_depth = trial.suggest_int('max_depth', 2, 2)
-    max_features = trial.suggest_categorical('max_features', [1.0, 'sqrt', 'log2'])
+    bootstrap = trial.suggest_categorical('bootstrap', [True, False])
+    max_depth = trial.suggest_int('max_depth', 1, 2)
+    max_features = trial.suggest_categorical('max_features', ['sqrt', 'log2'])
     max_leaf_nodes = trial.suggest_int('max_leaf_nodes', 2, 1000)
     n_estimators = trial.suggest_int('n_estimators', 10, 1000)
     min_samples_split = trial.suggest_int('min_samples_split', 2, 5)
@@ -35,7 +35,7 @@ def objective(trial):
     return r2_mean
 
 
-df = pd.read_csv("gender_gap_full.csv", delimiter=",")
+df = pd.read_csv("../gender_gap_full.csv", delimiter=",")
 print(df.head(10))
 
 # shap.initjs()  # いくつかの可視化で必要
@@ -50,7 +50,7 @@ X = df.drop(["incidence_ratio"], axis=1)
 print(X.head())
 print(y)
 
-Y_train, Y_val, X_train, X_val = train_test_split(y, X, test_size=.2)
+Y_train, Y_val, X_train, X_val = train_test_split(y, X, test_size=.2, random_state=42)
 
 
 # optunaで最適化
