@@ -16,6 +16,7 @@
 """
 
 from pathlib import Path
+from typing import Optional
 
 import numpy as np
 import pandas as pd
@@ -246,7 +247,7 @@ def fit_fixed_effects_model(
     data: pd.DataFrame,
     outcome_col: str,
     income_col: str,
-    covariates: list[str] | None = None,
+    covariates: Optional[list[str]] = None,
 ):
     """
     固定効果モデルを推定する。
