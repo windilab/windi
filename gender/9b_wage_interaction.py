@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import t as student_t
 from linearmodels.iv.absorbing import AbsorbingLS
-
+import matplotlib.pyplot as plt
 
 # ============================================================
 # 1. ユーザー設定
@@ -607,6 +607,156 @@ def main() -> None:
             "この場合、固定効果モデルでは"
             "所得変化の関連を推定できません。"
         )
+
+    # ============================================================
+    # incomeとincidence_rateの分布確認
+    # ============================================================
+
+    distribution_vars = [
+        INCOME_COL,
+        RATE_COL,
+    ]
+
+    # 要約統計量
+    print("\n" + "=" * 60)
+    print("incomeとincidence_rateの要約統計量")
+    print("=" * 60)
+
+    print(
+        df[distribution_vars]
+        .describe(
+            percentiles=[0.01, 0.05, 0.25, 0.50, 0.75, 0.95, 0.99]
+        )
+        .T
+    )
+
+    # 歪度と尖度
+    print("\n歪度")
+    print(df[distribution_vars].skew())
+
+    print("\n尖度")
+    print(df[distribution_vars].kurtosis())
+
+    # 欠損数
+    print("\n欠損数")
+    print(df[distribution_vars].isna().sum())
+
+    # 男女別データ
+    male = df.loc[df["female"] == 0]
+    female = df.loc[df["female"] == 1]
+
+    # ============================================================
+    # incomeの男女別ヒストグラム
+    # ============================================================
+
+    # 男女で同じ階級を使う
+    income_values = df[INCOME_COL].dropna()
+
+    income_bins = np.histogram_bin_edges(
+        income_values,
+        bins=30,
+    )
+
+    plt.figure(figsize=(8, 5))
+
+    plt.hist(
+        male[INCOME_COL].dropna(),
+        bins=income_bins,
+        color="blue",
+        alpha=0.45,
+        label="Male",
+        edgecolor="blue",
+    )
+
+    plt.hist(
+        female[INCOME_COL].dropna(),
+        bins=income_bins,
+        color="red",
+        alpha=0.45,
+        label="Female",
+        edgecolor="red",
+    )
+
+    plt.xlabel("Income")
+    plt.ylabel("Frequency")
+    plt.title("Distribution of income by sex")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+    # ============================================================
+    # incidence_rateの男女別ヒストグラム
+    # ============================================================
+
+    # 男女で同じ階級を使う
+    rate_values = df[RATE_COL].dropna()
+
+    rate_bins = np.histogram_bin_edges(
+        rate_values,
+        bins=30,
+    )
+
+    plt.figure(figsize=(8, 5))
+
+    plt.hist(
+        male[RATE_COL].dropna(),
+        bins=rate_bins,
+        color="blue",
+        alpha=0.45,
+        label="Male",
+        edgecolor="blue",
+    )
+
+    plt.hist(
+        female[RATE_COL].dropna(),
+        bins=rate_bins,
+        color="red",
+        alpha=0.45,
+        label="Female",
+        edgecolor="red",
+    )
+
+    plt.xlabel("Incidence rate per 100,000 person-years")
+    plt.ylabel("Frequency")
+    plt.title("Distribution of incidence rate by sex")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+    # ============================================================
+    # incomeとincidence_rateの男女別散布図
+    # 男性：青、女性：赤
+    # ============================================================
+
+    male = df[df["female"] == 0]
+    female = df[df["female"] == 1]
+
+    plt.figure(figsize=(8, 6))
+
+    plt.scatter(
+        male[INCOME_COL],
+        male[RATE_COL],
+        color="blue",
+        alpha=0.3,
+        s=20,
+        label="Male",
+    )
+
+    plt.scatter(
+        female[INCOME_COL],
+        female[RATE_COL],
+        color="red",
+        alpha=0.3,
+        s=20,
+        label="Female",
+    )
+
+    plt.xlabel("Income")
+    plt.ylabel("Incidence rate per 100,000 person-years")
+    plt.title("Income and incidence rate by sex")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 
     # ========================================================
     # 主解析：対数発症率
